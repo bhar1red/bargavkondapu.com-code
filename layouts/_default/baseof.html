@@ -1,9 +1,18 @@
+<!DOCTYPE html>
+<html>
+
 {{ partial "head" . }}
+
+<body>
+{{ partialCached "navigation" . }}
+
 {{ partial "header" . }}
-{{ partial "navigation" . }}
 
 {{ block "main" . }}
   <!-- The part of the page that begins to differ between templates -->
 {{ end }}
 
-{{ partial "footer" .}}
+{{ partialCached "footer" .}}
+
+</body>
+</html>

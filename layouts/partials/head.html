@@ -2,6 +2,10 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <meta name="desctiption" content="{{ .Title }} : {{ $.Site.Params.description }} ">
-  <title> {{ .Title }} : {{ $.Site.Title }} </title>
+  <meta name="description" content="{{ if .Params.description }} {{ .Params.description }} {{ else }} {{ $.Site.Params.description }} {{ end }} ">
+  <meta name="copyright" content="{{$.Site.Params.copyright}}">
+  <meta name="keywords" content="{{ .Params.keywords }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> {{ if .Title }} {{ .Title }} {{ end }} </title>
+
 </head>
