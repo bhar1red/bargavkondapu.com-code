@@ -3,7 +3,7 @@ title: "Post2"
 date: 2018-11-07T19:59:43-05:00
 content-type: post
 description:
-keywords:
+keywords: [keyword-for-post2, keyword-for-post2]
 categories:
 draft: true
 ---

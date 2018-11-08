@@ -1,3 +1,8 @@
 baseURL = "https://bargavkondapu.com"
 languageCode = "en-us"
 title = "Bargav Kondapu"
+
+[params]
+  description = "Hi. I am Bargav Kondapu"
+  author = "Bargav Kondapu"
+  author_description = "Bargav Kondapu is a web application developer"
