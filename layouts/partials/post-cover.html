@@ -1,13 +1,23 @@
 <div class="bk-cover w3-row">
-  <div class="bk-front-matter w3-half w3-container">
+  <div class="bk-description w3-half w3-container">
     <h1 id="title">{{ .Title }}</h1>
     <p> {{ if .Params.description }} {{ .Params.description }} {{ end }} </p>
-    <section>
-      <h4 id="date"> {{ .Date.Format "Mon Jan 2, 2006" }} </h4>
+    <section class="bk-front-matter w3-cell-row">
+      <div class="w3-cell w3-cell-top" style="width:10%">
+        <img src="{{ $.Site.Params.author_image }}" class="w3-circle" style="width: 100% ">
+      </div>
+      <div class="w3-cell w3-cell-top w3-container">
+        <a href="/about"> {{ $.Site.Params.author }} </a>  <br/>
+        <span style="font-size: 12px;"> {{ .Date.Format "Jan 2, 2006" }} </span> &middot;
+        <span style="font-size: 12px;"> {{ .ReadingTime }}min read </span> &#9734;
+
+      </div>
     </section>
-    {{ partial "author" . }}
   </div>
-  <div class="bk-image w3-half w3-container">
-    <img src="https://cdn-images-1.medium.com/max/2000/0*uHc3bL4yRTfYs1i6" style=" max-width: 100%; max-height: 100%;" >
+  {{ if .Params.image }}
+  <div class="bk-cover-image w3-half w3-container">
+    <img src=" {{ .Params.image}} " style=" max-width: 100%; max-height: 100%;" >
   </div>
+  {{ end }}
 </div>
+<hr>

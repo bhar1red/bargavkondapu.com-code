@@ -1,7 +1,7 @@
 ---
 title: "Post2"
 date: 2018-11-07T19:59:43-05:00
-content-type: post
+contenttype: post
 description:
 keywords: [keyword-for-post2, keyword-for-post2]
 categories:
