@@ -1,7 +1,33 @@
-<nav>
-  <a href="/about">About</a> |
-  <a href="/posts">Posts</a> |
-  <a href="/interactions">Interactions</a> |
-  <a href="/projects">Projects</a>
+<nav class="w3-row w3-border">
+
+<div class="w3-bar w3-white w3-large">
+  <a href="#" class="w3-bar-item w3-button w3-white">Bargav Kondapu</a>
+  {{with .Site.Menus.main}}
+  {{ range sort . "Weight" "desc"}}
+    <a href="{{ .URL }}" class="w3-bar-item w3-button w3-hide-small">{{.Name}}</a>
+  {{end}}
+  {{end}}
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
+</div>
+
+
+<div id="mobile-nav" class="w3-bar-block w3-light-grey w3-hide w3-hide-xlarge w3-hide-large">
+  {{with .Site.Menus.main}}
+  {{ range sort . "Weight" "desc"}}
+    <a href="{{ .URL }}" class="w3-bar-item w3-button">{{.Name}}</a>
+  {{end}}
+  {{end}}
+</div>
 </nav>
-<p> 
+
+
+<script>
+function myFunction() {
+    var x = document.getElementById("mobile-nav");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
