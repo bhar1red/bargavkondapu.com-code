@@ -10,7 +10,6 @@
         <a href="/about"> {{ $.Site.Params.author }} </a>  <br/>
         <span style="font-size: 12px;"> {{ .Date.Format "Jan 2, 2006" }} </span> &middot;
         <span style="font-size: 12px;"> {{ .ReadingTime }}min read </span> &#9734;
-
       </div>
     </section>
   </div>
@@ -19,5 +18,8 @@
     <img src=" {{ .Params.image}} " style=" max-width: 100%; max-height: 100%;" >
   </div>
   {{ end }}
+</div>
+<div class="social-share-widget w3-right">
+  Share this &#9758;
 </div>
 <hr>

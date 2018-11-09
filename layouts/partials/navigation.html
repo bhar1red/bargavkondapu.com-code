@@ -4,10 +4,10 @@
   <a href="/" class="w3-bar-item w3-button w3-white">Bargav Kondapu</a>
   {{with .Site.Menus.main}}
   {{ range sort . "Weight" "desc"}}
-    <a href="{{ .URL }}" class="w3-bar-item w3-button w3-hide-small">{{.Name}}</a>
+    <a href="{{ .URL }}" class="w3-bar-item w3-button w3-hide-medium  w3-hide-small">{{.Name}}</a>
   {{end}}
   {{end}}
-  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large " onclick="myFunction()">&#9776;</a>
 </div>
 
 
