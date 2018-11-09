@@ -6,25 +6,26 @@ title = "Bargav Kondapu"
   description = "Hi. I am Bargav Kondapu"
   author = "Bargav Kondapu"
   author_description = "Bargav Kondapu is a web application developer"
+  author_image="/images/bk-profile-sm.jpeg"
   copyright = "© 2018 Bargav Kondapu "
 
 
   [[menu.main]]
-    name = "About"
-    url = "/about"
+    name = "Notes"
+    url = "/notes"
     weight = 100
-
-  [[menu.main]]
-    name = "Posts"
-    url = "/posts"
-    weight = 99
-
-  [[menu.main]]
-    name = "Projects"
-    url = "/projects"
-    weight = 95
 
   [[menu.main]]
     name = "Interactions"
     url = "/interactions"
-    weight = 95
+    weight = 99
+
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts"
+    weight = 98
+
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects"
+    weight = 97
