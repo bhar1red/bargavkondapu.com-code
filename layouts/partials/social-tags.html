@@ -1,0 +1,7 @@
+
+<!-- facebook og tags -->
+<meta property="og:url" content="{{.Permalink}}" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="{{ if .Title }} {{ .Title }} {{ end }}" />
+<meta property="og:description" content="{{ if .Params.description }} {{ .Params.description }} {{ else }} {{ $.Site.Params.description }} {{ end }}" />
+<meta property="og:image" content="{{ if .Params.image }} {{ .Params.image }} {{ else }} {{ $.Site.Params.site_image }} {{ end }}" />

@@ -2,7 +2,7 @@
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 type: posts
-description:
+description: 
 keywords:
 image:
 imagealt:

@@ -1,6 +1,7 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-keywords: 
+keywords:
+description: 
 draft: true
 ---

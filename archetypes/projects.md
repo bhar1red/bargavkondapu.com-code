@@ -2,7 +2,7 @@
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 type: projects
-description:
+description: 
 keywords:
 image:
 imgalt:
