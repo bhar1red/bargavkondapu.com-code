@@ -1,7 +1,7 @@
-<nav class="navigation w3-row w3-border" >
+<nav class="navigation w3-row w3-border w3-white " >
 
-<div class="main-nav w3-bar w3-white w3-large w3-content">
-  <a href="/" class="w3-bar-item w3-button w3-white">Bargav Kondapu</a>
+<div class="main-nav w3-bar w3-white w3-xlarge w3-content">
+  <a href="/" class="w3-bar-item w3-button">Bargav Kondapu</a>
   {{with .Site.Menus.main}}
   {{ range sort . "Weight" "desc"}}
     <a href="{{ .URL }}" class="w3-bar-item w3-button w3-hide-medium  w3-hide-small">{{.Name}}</a>
