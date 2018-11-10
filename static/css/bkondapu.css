@@ -5,12 +5,10 @@ p{
   text-align: justify;
 }
 
-pre code {
-  font-family: monospace;
-  background-color: #eee;
-  border: 1px solid #999;
-  display: block;
-  padding: 20px;
+pre {
+  background-color: #e6e7e8;
+  padding: 10px;
+  overflow: auto;
 }
 
 #content a{

@@ -3,6 +3,8 @@ languageCode = "en-us"
 title = "Bargav Kondapu"
 tags=["interactions", "development", "motivation", "code"]
 categories=["interactions","technology","development","tutorial", "blogs"]
+PygmentsCodeFences = true
+PygmentsStyle = "monokai"
 
 [params]
   description = "Hi. I am Bargav Kondapu"
