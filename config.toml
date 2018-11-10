@@ -13,19 +13,27 @@ categories=["interactions","technology","development","tutorial", "blogs"]
   author_image="/images/bk-profile-sm.jpeg"
   copyright = "© 2018 Bargav Kondapu "
 
-
+  [[menu.main]]
+    name = "About"
+    url = "/about"
+    weight = 100
 
   [[menu.main]]
     name = "Notes"
     url = "/notes"
-    weight = 100
+    weight = 99
+
+  [[menu.main]]
+      name = "Interactions"
+      url = "/interactions"
+      weight = 98
 
   [[menu.main]]
     name = "Posts"
     url = "/posts"
-    weight = 98
+    weight = 97
 
   [[menu.main]]
     name = "Projects"
     url = "/projects"
-    weight = 97
+    weight = 96
