@@ -1,7 +1,10 @@
 <div class="bk-cover w3-row">
   <div class="bk-description w3-half w3-container">
     <h1 id="title">{{ .Title }}</h1>
-    <p> {{ if .Params.description }} {{ .Params.description }} {{ end }} </p>
+    <p> {{ if .Params.description }} {{ .Params.description }}
+      {{else}}
+      {{ .Summary | truncate 200 }}
+      {{ end }} </p>    {{partial "list-tags" .}} <br/>
     <section class="bk-front-matter w3-cell-row">
       <div class="w3-cell w3-cell-top" style="width:10%">
         <img src="{{ $.Site.Params.author_image }}" class="w3-circle" style="width: 100% ">
@@ -15,11 +18,9 @@
   </div>
   {{ if .Params.image }}
   <div class="bk-cover-image w3-half w3-container">
-    <img src=" {{ .Params.image}} " style=" max-width: 100%; max-height: 100%;" >
+    <img src=" {{ .Params.image}} " alt="{{ .Params.imagealt }}" style=" max-width: 100%; max-height: 100%;" >
+    <span class="bk-image-credits"> {{ .Params.imagecredits }} </span>
   </div>
   {{ end }}
-</div>
-<div class="social-share-widget w3-right">
-  Share this &#9758;
 </div>
 <hr>

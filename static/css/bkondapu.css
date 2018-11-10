@@ -1,3 +1,11 @@
+a{
+  text-decoration: none;
+}
+p{
+  text-align: justify;
+}
+
+
 pre code {
   font-family: monospace;
   background-color: #eee;
@@ -6,7 +14,7 @@ pre code {
   padding: 20px;
 }
 
-#bk-pagination ul{
+.bk-pagination ul{
   overflow-x:hidden;
   white-space:nowrap;
   width: 100%;
@@ -14,19 +22,35 @@ pre code {
   vertical-align: bottom;
 }
 
-#bk-pagination ul li {
+.bk-pagination ul li {
   display: inline-block;
   font-size: large;
   padding-left: 8px;
 }
-#bk-pagination ul li a{
-  text-decoration: none;
-}
 
-#bk-pagination ul li.active {
+.bk-pagination ul li.active {
   font-size: x-large;
 }
 
-#bk-pagination ul li.disabled {
+.bk-pagination ul li.disabled {
   color: grey;
+}
+
+.bk-post-card {
+  min-height: 400px;
+  max-height: 400px;
+}
+
+.bk-post-card p{
+  padding: 8px;
+  font-size: small;
+}
+
+.bk-tags-list {
+  font-size: 12px;
+}
+
+.bk-image-credits{
+  color: grey;
+  font-size: x-small;
 }

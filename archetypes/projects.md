@@ -1,9 +1,13 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-content-type: project
+type: projects
 description:
 keywords:
+image:
+imgalt:
+imgcredits:
+tags:
 categories:
 draft: true
 ---

@@ -1,6 +1,8 @@
 baseURL = "https://bargavkondapu.com"
 languageCode = "en-us"
 title = "Bargav Kondapu"
+tags=["interactions", "development", "motivation", "code"]
+categories=["interactions","technology","development","tutorial", "blogs"]
 
 [params]
   description = "Hi. I am Bargav Kondapu"
