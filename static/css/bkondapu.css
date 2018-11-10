@@ -6,9 +6,15 @@ p{
 }
 
 pre {
-  background-color: #e6e7e8;
+  background-color: #272822;
   padding: 10px;
   overflow: auto;
+}
+pre code{
+  color: #fff;
+}
+code{
+  color: teal;
 }
 
 #content a{
