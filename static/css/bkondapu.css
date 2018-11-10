@@ -5,3 +5,28 @@ pre code {
   display: block;
   padding: 20px;
 }
+
+#bk-pagination ul{
+  overflow-x:hidden;
+  white-space:nowrap;
+  width: 100%;
+  list-style-type: none;
+  vertical-align: bottom;
+}
+
+#bk-pagination ul li {
+  display: inline-block;
+  font-size: large;
+  padding-left: 8px;
+}
+#bk-pagination ul li a{
+  text-decoration: none;
+}
+
+#bk-pagination ul li.active {
+  font-size: x-large;
+}
+
+#bk-pagination ul li.disabled {
+  color: grey;
+}
