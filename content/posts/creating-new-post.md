@@ -8,7 +8,6 @@ image: https://cdn-images-1.medium.com/max/2000/0*uHc3bL4yRTfYs1i6
 imagealt:
 imagecredits: Photo by Bargav Kondapu
 tags: ["Development", "language", "Blogging"]
-categories: ["Development", "Tutorial"]
 draft: true
 ---
 

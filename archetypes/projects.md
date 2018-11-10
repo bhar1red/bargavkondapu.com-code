@@ -7,8 +7,8 @@ keywords:
 image:
 imgalt:
 imgcredits:
-tags:
 categories:
+project-url:
 draft: true
 ---
 

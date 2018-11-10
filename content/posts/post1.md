@@ -8,9 +8,25 @@ image: https://cdn-images-1.medium.com/max/2000/0*uHc3bL4yRTfYs1i6
 imgalt:
 imgcredits: bargavkondapu
 tags: ["Development", "Language", "Blogging"]
-categories: ["Development", "Tutorial", "Blogging"]
 draft: true
 ---
 [comment]: # ( Post include personal views, articles, tutorials. )
 
-## Post 1
+### Installation
+
+Dillinger requires [Node.js](https://nodejs.org/) v4+ to run.
+
+Install the dependencies and devDependencies and start the server.
+
+```sh
+$ cd dillinger
+$ npm install -d
+$ node app
+```
+
+For production environments...
+
+```sh
+$ npm install --production
+$ NODE_ENV=production node app
+```

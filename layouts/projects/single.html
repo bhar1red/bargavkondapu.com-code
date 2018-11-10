@@ -1,8 +1,9 @@
 {{ define "main" }}
 
-{{ partial "post-cover" . }}
+{{ partial "project-cover" . }}
 
 {{ partial "prevnext" . }}
+<hr>
 <section id="main">
   <div>
         <article id="content">
@@ -10,12 +11,5 @@
         </article>
   </div>
 </section>
-<aside id="meta">
-
-{{ partial "prevnext" . }}
-<!-- {{ partial "author" . }} -->
-
-<!-- Need to add Tags and Topics -->
-</aside>
 
 {{ end }}

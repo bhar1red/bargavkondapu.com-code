@@ -6,21 +6,19 @@ categories=["interactions","technology","development","tutorial", "blogs"]
 
 [params]
   description = "Hi. I am Bargav Kondapu"
+  default_image = "/images/laptop-journal.jpeg"
+
   author = "Bargav Kondapu"
   author_description = "Bargav Kondapu is a web application developer"
   author_image="/images/bk-profile-sm.jpeg"
   copyright = "© 2018 Bargav Kondapu "
 
 
+
   [[menu.main]]
     name = "Notes"
     url = "/notes"
     weight = 100
-
-  [[menu.main]]
-    name = "Interactions"
-    url = "/interactions"
-    weight = 99
 
   [[menu.main]]
     name = "Posts"

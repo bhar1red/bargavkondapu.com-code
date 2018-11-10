@@ -1,0 +1,7 @@
+<div class="w3-container bk-tags-list">
+    {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+        {{ with $.Site.GetPage (printf "/categories/%s" $name) }}
+            <a href="{{ .Permalink }}"><span class="w3-tag w3-light-grey"> #{{ $name }} </span> </a>
+        {{ end }}
+    {{ end }}
+</div>
