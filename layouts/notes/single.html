@@ -1,11 +1,13 @@
 {{ define "main" }}
 
  <section id="main">
+
    <div>
         <article id="content">
            {{ .Content }}
         </article>
   </div>
  </section>
-
+ <br/> <br/>
+   {{partial "social-share" .}}
 {{ end }}
