@@ -1,6 +1,6 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
+title: "Taxonomy Deduplication"
+date: 2018-11-11T15:48:16-05:00
 type: projects
 description: description goes here  
 keywords: keywords (recommended but optional)

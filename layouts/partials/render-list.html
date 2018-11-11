@@ -1,4 +1,4 @@
-{{ range where (.Paginator 5).Pages "Type" "!=" "page" }}
+{{ range where (.Paginator 5).Pages "Type" "not in" "page" }}
       <div class="w3-content w3-panel bk-note-card ">
         <a href="{{.Permalink}}">
           <h2> {{ .Title }} </h2>

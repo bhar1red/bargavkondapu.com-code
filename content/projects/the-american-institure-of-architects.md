@@ -2,22 +2,23 @@
 title: "The American Institure of Architects"
 date: 2018-11-11T14:00:51-05:00
 type: projects
-description: Decoupled Website, built with drupal 8 and emberjs
-keywords: drupal, emberjs, aia, american institute of architects
+description: aia.org, A decoupled website, built in drupal 8 and emberjs
+keywords: drupal, emberjs, aia, american institute of architects, website, web development
 image: https://res.cloudinary.com/dkjdeuwlv/image/upload/v1541962686/bargavkondapu.com/projects/aia-org.png
 imgalt: The American Institute of Architects
-imgcredits: screenshot of aia.org
-categories: ["Development",  "Drupal", "EmberJS"]
+imgcredits: Screenshot of aia.org
+categories: ["web-development",  "Drupal", "EmberJS"]
 project-url: https://www.aia.org/
 draft: false
 ---
 
 [comment]: # (Project should contain Summary, Description, Repo and Live urls, Screenshot or demo video and Tutorials( if any.))
 
-The American Institute of Architects is a professional organization for architects in the United States. I feel privileged to work for this organization. As a web developer there, from 2015-2016, we built this website, using Drupal 8 and EmberJS.
+[The American Institute of Architects](https:://www.aia.org) is a professional organization for architects in the United States. I feel privileged to work for this organization. As a web developer there, from 2015-2016, we built this website, using Drupal 8 and EmberJS.
 
 This project is one of early adopters of 'Progressive Decoupled' architecture. We made use Drupal8's REST API and Ember Datastore and Ember fastboot to achieve this.
 
+**Project URL:** https://www.aia.org/
 
-
-**Technologies Used :**  Drupal, EmberJS, NodeJs, ElasticSearch, Travis-CI, Github, Amazon AWS.
+**Technologies Used :**  [Drupal](https://www.drupal.org/), [EmberJS](https://www.emberjs.com/),
+ [NodeJs](https://nodejs.org/en/), [ElasticSearch](https://www.elastic.co/), [Travis-CI](https://travis-ci.org/), [Github](https://github.com/), [Amazon AWS](https://aws.amazon.com/).

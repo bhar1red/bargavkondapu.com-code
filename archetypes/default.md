@@ -2,6 +2,6 @@
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 keywords:
-description: 
-draft: true
+description:
+draft: false
 ---

@@ -1,0 +1,7 @@
+<div class="w3-container bk-tags-list">
+{{ with .Params.categories }}
+  {{ range . }}
+     <a href="{{ "categories/" | absURL }}{{ . | urlize }}">  <span class="w3-tag w3-light-grey"> #{{ . }} </span> </a> &nbsp;
+  {{ end }}
+{{ end }}
+</div>

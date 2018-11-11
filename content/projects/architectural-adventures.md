@@ -1,23 +1,21 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
+title: "Architectural Adventures"
+date: 2018-11-11T14:32:21-05:00
 type: projects
-description: description goes here  
-keywords: keywords (recommended but optional)
-image: (Image - 1200 x 1200 )
-imgalt: Image Alt text  
-imgcredits: Image credits
-categories:
-project-url:
+description: A decoupled website, build in drupal and emberjs
+keywords: drupal, emberjs, aia, american institute of architects, architectural adventures, website, web development
+image: https://res.cloudinary.com/dkjdeuwlv/image/upload/v1541962729/bargavkondapu.com/projects/architectural-adventures-aia.png
+imgalt: Architectural Adventures
+imgcredits: Screenshot of architecturaladventures.org
+categories: ["web-development",  "Drupal", "EmberJS"]
+project-url: https://www.architecturaladventures.org/
 draft: false
 ---
 
 [comment]: # (Project should contain Summary, Description, Repo and Live urls, Screenshot or demo video and Tutorials( if any.))
 
-[comment]: # (Website/organization description)
 [Architectural Adventures](https://www.architecturaladventures.org/) is the official travel program of [The American Institute of Architects](https://www.aia.org/), offering first-rate experiences in breathtaking destinations across the globe.
 
-[comment]: # (Details about project)
 This is implemented during my job at AIA. It follows the same architecture and principles as that of the the [previous project](/projects/the-american-institute-of-architects).
 
 **Project URL:** https://www.architecturaladventures.org/

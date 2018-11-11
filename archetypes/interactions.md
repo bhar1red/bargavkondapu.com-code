@@ -4,6 +4,6 @@ date: {{ .Date }}
 type: interactions
 keywords:
 description:
-draft: true
+draft: false
 ---
 [comment]: # (Interactions with strangers )

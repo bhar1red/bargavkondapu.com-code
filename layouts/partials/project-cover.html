@@ -4,7 +4,7 @@
     <p> {{ if .Params.description }} {{ .Params.description }}
       {{else}}
       {{ .Summary | truncate 200 }}
-      {{ end }} </p>    {{partial "list-tags" .}} <br/>
+      {{ end }} </p>    {{partial "list-categories" .}} <br/>
    {{ if .Params.projecturl }}
      <p> <strong> Project URL : </strong>  {{ .Params.projecturl }} </p>
    {{ end }}
