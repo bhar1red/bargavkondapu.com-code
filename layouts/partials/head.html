@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <meta name="description" content="{{ if .Params.description }} {{ .Params.description }} {{ else }} {{ $.Site.Params.description }} {{ end }} ">
+  <meta name="description" content="{{if .IsHome}} {{$.Site.Params.description}} {{ else }} {{ if .Params.description }} {{ .Params.description }} {{ else }} {{ .Summary }} {{ end }} {{ end }} ">
   <meta name="copyright" content="{{$.Site.Params.copyright}}">
   <meta name="keywords" content="{{ .Params.keywords }}">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
