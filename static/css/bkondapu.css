@@ -62,10 +62,10 @@ code{
   font-size: x-small;
 }
 
-.w3-content{
-  max-width: 1200px;
-}
-
 .bk-social-share{
   font-size: 12px;
+}
+
+.bk-maincontent img{
+  max-width: 100%;
 }
