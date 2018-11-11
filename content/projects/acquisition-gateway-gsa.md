@@ -5,8 +5,8 @@ type: projects
 description: Website for GSA's Acquisition Gateway. Built in Drupal7 and AngularJS
 keywords: drupal, drupal8, gsa, acquisition gateway, website, web development
 image: https://res.cloudinary.com/dkjdeuwlv/image/upload/v1541962661/bargavkondapu.com/projects/hallways-gsa.png
-imgalt: GSA Acquisition Gateway
-imgcredits: Screenshot of GSA Hallways
+imagealt: GSA Acquisition Gateway
+imagecredits: Screenshot of GSA Hallways
 categories: ["web-development",  "Drupal", "AngularJS"]
 project-url: https://hallways.cap.gsa.gov/
 draft: false

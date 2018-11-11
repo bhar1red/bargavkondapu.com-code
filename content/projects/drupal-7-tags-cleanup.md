@@ -5,8 +5,8 @@ type: projects
 description: Drupal 7 custom module to clean up duplicate and similar tags.  
 keywords: drupal, custom module, taxonomy, clean up tags, remove similar taxonomy, website, web development
 image: https://res.cloudinary.com/dkjdeuwlv/image/upload/v1541969158/bargavkondapu.com/projects/code-preview.jpg
-imgalt: Programming Code
-imgcredits: © [cronislaw](https://stock.adobe.com/contributor/205173064/cronislaw) / [Adobe Stock]!(https://stock.adobe.com/)
+imagealt: Programming Code
+imagecredits: © [cronislaw] /Adobe Stock
 categories: ["Drupal"]
 project-url: https://github.com/bhar1red/drupal-7-tags-cleanup
 draft: false

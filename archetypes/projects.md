@@ -5,8 +5,8 @@ type: projects
 description: description goes here  
 keywords: keywords (recommended but optional)
 image: (Image - 1200 x 1200 )
-imgalt: Image Alt text  
-imgcredits: Image credits
+imagealt: Image Alt text  
+imagecredits: Image credits
 categories:
 project-url:
 draft: false

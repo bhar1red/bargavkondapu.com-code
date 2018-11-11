@@ -6,7 +6,7 @@ description:
 keywords:
 image:
 imagealt:
-imagecredits: © [Photographer's name] - Website
+imagecredits: © [Photographer's name] /Website
 tags: ["Development", "Language", "Blogging"]
 draft: false
 ---

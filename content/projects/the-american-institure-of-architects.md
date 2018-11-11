@@ -5,8 +5,8 @@ type: projects
 description: aia.org, A decoupled website, built in drupal 8 and emberjs
 keywords: drupal, emberjs, aia, american institute of architects, website, web development
 image: https://res.cloudinary.com/dkjdeuwlv/image/upload/v1541962686/bargavkondapu.com/projects/aia-org.png
-imgalt: The American Institute of Architects
-imgcredits: Screenshot of aia.org
+imagealt: The American Institute of Architects
+imagecredits: Screenshot of aia.org
 categories: ["web-development",  "Drupal", "EmberJS"]
 project-url: https://www.aia.org/
 draft: false

@@ -5,8 +5,8 @@ type: projects
 description: A decoupled website, build in drupal and emberjs
 keywords: drupal, emberjs, aia, american institute of architects, architectural adventures, website, web development
 image: https://res.cloudinary.com/dkjdeuwlv/image/upload/v1541962729/bargavkondapu.com/projects/architectural-adventures-aia.png
-imgalt: Architectural Adventures
-imgcredits: Screenshot of architecturaladventures.org
+imagealt: Architectural Adventures
+imagecredits: Screenshot of architecturaladventures.org
 categories: ["web-development",  "Drupal", "EmberJS"]
 project-url: https://www.architecturaladventures.org/
 draft: false

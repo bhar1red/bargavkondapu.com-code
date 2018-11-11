@@ -68,4 +68,64 @@ code{
 
 .bk-maincontent img{
   max-width: 100%;
+  object-fit: cover;
 }
+
+
+.bk-maincontent img[src*='#left'] {
+    float: left;
+}
+
+.bk-maincontent img[src*='#right'] {
+    float: right;
+}
+
+.bk-maincontent img[src*='#center'] {
+    display: block;
+    margin: auto;
+}
+
+.bk-maincontent h1 h2{
+  clear: both;
+}
+
+
+.bk-maincontent{
+  font-size: large;
+  font-family: sans-serif;
+}
+
+ blockquote {
+  display: inline-block;
+  background: whitesmoke;
+  border-left: 10px solid teal;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+}
+blockquote:before {
+  color: #ccc;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+
+/* blockquote{
+  font-size: 1.4em;
+  width:60%;
+  margin:50px auto;
+  font-family:Open Sans;
+  font-style:italic;
+  color: #555;
+  padding:1.2em 30px 1.2em 75px;
+  border-left:8px solid teal ;
+  line-height:1.6;
+  position: relative;
+  background:whitesmoke;
+}
+blockquote{
+  display: inline;
+} */
