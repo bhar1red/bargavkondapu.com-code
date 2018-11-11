@@ -1,7 +1,7 @@
 ---
 title: "Note1"
 date: 2018-11-07T20:06:58-05:00
-content-type: notes
+content-type: note
 keywords:
 categories:
 draft: true

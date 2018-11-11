@@ -61,3 +61,11 @@ code{
   color: grey;
   font-size: x-small;
 }
+
+.w3-content{
+  max-width: 1200px;
+}
+
+.bk-social-share{
+  font-size: 12px;
+}

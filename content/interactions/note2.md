@@ -1,7 +1,7 @@
 ---
 title: "Note2"
 date: 2018-11-07T20:07:06-05:00
-content-type: notes
+content-type: interaction
 keywords:
 categories:
 draft: true

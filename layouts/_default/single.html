@@ -1,11 +1,17 @@
 {{ define "main" }}
 
-<section id="main">
-  <div>
+ <section id="main">
+
+   <div>
         <article id="content">
            {{ .Content }}
         </article>
   </div>
-</section>
+ </section>
+ <br/> <br/>
+
+  {{ if ne .Type "page"}}
+   {{partial "social-share" .}}
+  {{ end }}
 
 {{ end }}

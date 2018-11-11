@@ -1,48 +1,25 @@
-<!-- <!DOCTYPE html>
-<html>
-
-{{ partial "head" . }}
-
-<body>
-
-{{ partialCached "navigation" . }}
-
-<ul>
-  <li> <a href="about"> About </a> </li>
-  <li> <a href="/interactions"> Interactions </a> </li>
-  <li> <a href="/notes"> Notes </a> </li>
-  <li> <a href="posts"> Posts </a> </li>
-  <li> <a href="projects"> Projects </a> </li>
-</ul>
-
-</body></html> -->
 <!DOCTYPE html>
 <html>
 
 {{ partial "head" . }}
 
 <body>
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TFV7C59"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
 {{ partialCached "navigation" . }}
 
 {{ partial "header" . }}
+<div class="w3-container w3-padding-32 bk-maincontent">
 
-<div class="w3-container w3-content w3-padding-32 bk-homepage w3-row">
-  <div class="w3-third w3-container w3-right w3-hide-small">
-   <img src="images/bargav-sketch.png" style="max-width: 100%; max-height: 500px; padding: 20px" >
+<main>
+  <div class="w3-container bk-list">
+      {{ partial "render-list" .}}
+      {{ partial "paginator" . }}
   </div>
-
-  <div class="w3-twothird w3-container">
-    <p> Hi! I am Bargav and I am in a constant pursuit of fulfillment. I feel fulfilled by sharing knowledge and inspiration with others. I feel fulfilled by having deep conversations with people.</p>
-
-   <p> Being grown up with technology, writing code and developing websites is one of the most fulfilling activities for me. I help organizations establish their digital presence and be able to share their thoughts across internet.</p>
-
-  <p> email: bhar1red@gmail.com </p>
-  <p>facebook | linkedIn | github </p>
-  </div>
-
-
-
+</main>
 </div>
 
 {{ partialCached "footer" .}}

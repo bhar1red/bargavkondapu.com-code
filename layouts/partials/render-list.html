@@ -1,0 +1,16 @@
+{{ range where (.Paginator 5).Pages "Type" "!=" "page" }}
+      <div class="w3-content w3-panel bk-note-card ">
+        <a href="{{.Permalink}}">
+          <h2> {{ .Title }} </h2>
+        </a>
+        <span style="font-size: 12px;"> {{ .Type | humanize | singularize }} </span> &middot;
+        <span style="font-size: 12px;"> {{ .Date.Format "Jan 2, 2006" }} </span> &middot;
+        <span style="font-size: 12px;"> <a href="{{.Permalink}}"> <i class="fa fa-chain"></i> Permalink </a>  </span> &middot;
+        <span style="font-size: 12px;"> {{ .ReadingTime }}min read </span>
+
+
+         <p> {{ .Content }} </p>
+         {{ partial "social-share" .}}
+      </div>
+<hr>
+{{ end }}

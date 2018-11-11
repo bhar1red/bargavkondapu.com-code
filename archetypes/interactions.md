@@ -1,9 +1,9 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-type: notes
+type: interaction
 keywords:
-description: 
+description:
 draft: true
 ---
 [comment]: # (Interactions with strangers )

@@ -1,8 +1,8 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-type: projects
-description: 
+type: project
+description:
 keywords:
 image:
 imgalt:
