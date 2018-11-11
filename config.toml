@@ -8,7 +8,7 @@ PygmentsStyle = "monokai"
 
 [params]
   description = "Hi. I am Bargav Kondapu"
-  site_image = ""
+  site_image = "https://bargavkondapu.com/image/bk-profile.jpg"
   default_image = "/images/laptop-journal.jpeg"
 
   author = "Bargav Kondapu"
