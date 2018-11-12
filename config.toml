@@ -7,12 +7,12 @@ PygmentsCodeFences = true
 PygmentsStyle = "monokai"
 
 [params]
-  description = "Hi. I am Bargav Kondapu"
-  site_image = "https://bargavkondapu.com/image/bk-profile.jpg"
+  description = "Hi! I am Bargav. I develop websites and help organizations establish their digital presence. I like sharing knowledge and inspirations, and having deep conversations with people."
+  site_image = "https://bargavkondapu.com/images/bk-profile.jpg"
   default_image = "/images/laptop-journal.jpeg"
 
   author = "Bargav Kondapu"
-  author_description = "Bargav Kondapu is a web application developer"
+  author_description = "Hi! I am Bargav. I develop websites and help organizations establish their digital presence. I like sharing knowledge and inspirations, and having deep conversations with people."
   author_image="/images/bk-profile-sm.jpeg"
   copyright = "© 2018 Bargav Kondapu "
 

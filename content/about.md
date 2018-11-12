@@ -2,8 +2,9 @@
 title: "About"
 date: 2015-11-07T20:24:52-05:00
 keywords:
+description: Hi! I am Bargav. I develop websites and help organizations establish their digital presence. I like sharing knowledge and inspirations, and having deep conversations with people.
 type: page
-draft: true
+draft: false
 ---
 
 # About Me

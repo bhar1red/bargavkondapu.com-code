@@ -4,7 +4,7 @@ date: 2015-11-07T20:24:52-05:00
 keywords:
 description: Bargav Kondapu Website Comment Policy - Keep it civil, Keep it tidy.
 type: page
-draft: true
+draft: false
 
 ---
 
