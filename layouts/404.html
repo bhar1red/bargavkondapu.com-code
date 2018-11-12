@@ -1,1 +1,29 @@
-<p>Hi. I am 404 page. </p>
+<!DOCTYPE html>
+<html>
+
+{{ partial "head" . }}
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TFV7C59"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+{{ partialCached "navigation" . }}
+
+{{ partial "header" . }}
+<div class="w3-container w3-padding-32 bk-maincontent">
+
+<main>
+  <div class="w3-content">
+    <h1> 404 </h1>
+    <p> Could not find the page you are looking for. Please try a different URL. </p>
+  </div>
+</main>
+</div>
+
+{{ partialCached "footer" .}}
+
+{{ partial "scripts" .}}
+</body>
+</html>
