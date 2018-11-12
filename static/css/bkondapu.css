@@ -69,6 +69,7 @@ code{
 .bk-maincontent img{
   max-width: 100%;
   object-fit: cover;
+  padding: 10px;
 }
 
 

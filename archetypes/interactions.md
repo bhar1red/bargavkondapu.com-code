@@ -2,7 +2,10 @@
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 type: interactions
-keywords:
+keywords: interactions, interaction with stranger
+image:
+imagealt:
+imagecredits: 
 description:
 draft: false
 ---

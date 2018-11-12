@@ -7,7 +7,6 @@ type: page
 draft: true
 
 ---
-# Comment Policy - bargavkondapu.com
 
 #### Keep it civil
 

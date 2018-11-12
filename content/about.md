@@ -5,9 +5,8 @@ keywords:
 type: page
 draft: true
 ---
-# About me
 
-Hi! I am Bargav. I develop websites and help organizations establish their digital presence. I like sharing knowledge and inspirations, and having deep conversations with people. 
+Hi! I am Bargav. I develop websites and help organizations establish their digital presence. I like sharing knowledge and inspirations, and having deep conversations with people.
 
 [Interests](#interests) | [Philosophy](#philosophy) | [Technical](#technical) | [Contact](#contact) |
 
