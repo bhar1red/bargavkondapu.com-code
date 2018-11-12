@@ -1,5 +1,7 @@
 {{ range where (.Paginator 5).Pages "Type" "not in" "pages" }}
       <div class="w3-content w3-panel bk-note-card ">
+        {{ if ne .Type "page"}}
+
         <a href="{{.Permalink}}">
           <h2> {{ .Title }} </h2>
         </a>
@@ -8,6 +10,7 @@
         <span style="font-size: 12px;"> <a href="{{.Permalink}}"> <i class="fa fa-chain"></i> Permalink </a>  </span> &middot;
         <span style="font-size: 12px;"> {{ .ReadingTime }}min read </span>
 
+        {{ end }}
 
          <p> {{ .Content }} </p>
          {{ partial "social-share" .}}
