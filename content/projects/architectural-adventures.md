@@ -1,6 +1,6 @@
 ---
 title: "Architectural Adventures"
-date: 2018-11-11T14:32:21-05:00
+date: 2016-12-11T14:32:21-05:00
 type: projects
 description: A decoupled website, build in drupal and emberjs
 keywords: drupal, emberjs, aia, american institute of architects, architectural adventures, website, web development

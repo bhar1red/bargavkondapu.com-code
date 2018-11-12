@@ -1,6 +1,6 @@
 ---
 title: "Drupal 7 Tags Cleanup"
-date: 2018-11-11T16:00:42-05:00
+date: 2017-11-10T16:00:42-05:00
 type: projects
 description: Drupal 7 custom module to clean up duplicate and similar tags.  
 keywords: drupal, custom module, taxonomy, clean up tags, remove similar taxonomy, website, web development

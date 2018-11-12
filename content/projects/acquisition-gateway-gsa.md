@@ -1,6 +1,6 @@
 ---
 title: "Acquisition Gateway GSA"
-date: 2018-11-11T15:09:46-05:00
+date: 2017-10-11T15:09:46-05:00
 type: projects
 description: Website for GSA's Acquisition Gateway. Built in Drupal7 and AngularJS
 keywords: drupal, drupal8, gsa, acquisition gateway, website, web development

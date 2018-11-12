@@ -1,14 +1,16 @@
 ---
 title: "About"
-date: 2018-11-07T20:24:52-05:00
+date: 2015-11-07T20:24:52-05:00
 keywords:
 type: page
 draft: true
 ---
 
+# About Me
+
 Hi! I am Bargav. I develop websites and help organizations establish their digital presence. I like sharing knowledge and inspirations, and having deep conversations with people.
 
-[Interests](#interests) | [Philosophy](#philosophy) | [Technical](#technical) | [Contact](#contact) |
+[Interests](#interests) | [Philosophy](#philosophy) | [Technical](#technical) | [Contact](#contact)
 
 ![Bargav Kondapu](/images/bk-profile.jpg)
 

@@ -1,6 +1,6 @@
 ---
 title: "FirstNet"
-date: 2018-11-11T14:53:00-05:00
+date: 2017-06-25T14:53:00-05:00
 type: projects
 description: A website build for the first responders. Built in Drupal using panels and layout modules.
 keywords: drupal, drupal8, firstnet, website, web development

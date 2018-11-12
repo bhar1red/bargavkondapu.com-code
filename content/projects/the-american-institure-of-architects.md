@@ -1,6 +1,6 @@
 ---
 title: "The American Institure of Architects"
-date: 2018-11-11T14:00:51-05:00
+date: 2016-12-11T14:00:51-05:00
 type: projects
 description: aia.org, A decoupled website, built in drupal 8 and emberjs
 keywords: drupal, emberjs, aia, american institute of architects, website, web development
