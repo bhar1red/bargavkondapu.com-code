@@ -1,6 +1,6 @@
 ---
 title: "Note 25"
-date: 2018-11-11T21:03:54-05:00
+date: 2017-09-16T21:03:54-05:00
 type: notes
 keywords:
 description:
