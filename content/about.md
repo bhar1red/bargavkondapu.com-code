@@ -39,7 +39,7 @@ Though our philosophy keep updating everyday, it is reflected in my work and lif
 ## Technical
 I build highly scalable and robust websites. My work focuses mostly on writing API's and developing custom modules for Drupal. I love learning about all the aspects involved with developing websites, good with frontend, configuring servers and writing build scripts as well.
 
-[Click here](/BargavKondapu_Resume.pdf) for my resume
+[Click here](/files/BargavKondapu_Resume.pdf) for my resume
 ## Contact
 You can reach me at:
 
