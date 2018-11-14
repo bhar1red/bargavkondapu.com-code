@@ -10,6 +10,9 @@
  <br/> <br/>
 
   {{ if ne .Type "page"}}
+  <span style="font-size: 12px;"> {{ .Type | humanize | singularize }} </span> &middot;
+  <span style="font-size: 12px;"> {{ .Date.Format "Jan 2, 2006" }} </span> &middot;
+  <span style="font-size: 12px;"> {{ .ReadingTime }}min read </span>
    {{partial "social-share" .}}
    <hr>
    {{ partial "prevnext" . }}
