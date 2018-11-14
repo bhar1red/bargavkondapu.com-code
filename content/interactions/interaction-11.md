@@ -1,5 +1,5 @@
 ---
-title: "Interaction With Stranger 11"
+title: "Interactions of B"
 date: 2017-09-17T18:40:05-05:00
 type: interactions
 keywords: interactions, interaction with stranger, simon sinek, start with why, journey, motivation

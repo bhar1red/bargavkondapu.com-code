@@ -1,7 +1,6 @@
 {{ define "main" }}
 
  <section id="main">
-<h1> {{ .Title }} </h1>
    <div>
         <article id="content">
            {{ .Content }}
@@ -15,7 +14,7 @@
    <hr>
    {{ partial "prevnext" . }}
   {{ end }}
-  
+
 {{ partial "disqus" . }}
 
 {{ end }}

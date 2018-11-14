@@ -1,11 +1,11 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
+title: "Interactions of B"
 date: {{ .Date }}
 type: interactions
 keywords: interactions, interaction with stranger
 image:
 imagealt:
-imagecredits: 
+imagecredits:
 description:
 draft: false
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Interaction With Stranger 2"
+title: "Interactions of B"
 date: 2015-01-17T19:39:33-05:00
 type: interactions
 keywords: interactions, interaction with stranger, casual flirting

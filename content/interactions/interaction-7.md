@@ -1,5 +1,5 @@
 ---
-title: "Interaction With Stranger 7"
+title: "Interactions of B"
 date: 2017-07-15T10:54:51-05:00
 type: interactions
 keywords: interactions, interaction with stranger

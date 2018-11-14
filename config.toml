@@ -16,6 +16,8 @@ PygmentsStyle = "monokai"
   author_image="/images/bk-profile-sm.jpeg"
   copyright = "© 2018 Bargav Kondapu "
 
+  no_title_pages=["notes","interactions"]
+
   [[menu.main]]
     name = "About"
     url = "/about"

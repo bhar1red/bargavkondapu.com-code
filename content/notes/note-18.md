@@ -1,5 +1,5 @@
 ---
-title: "Note 18"
+title: "A note from Bargav"
 date: 2017-01-16T20:39:25-05:00
 type: notes
 keywords:

@@ -1,9 +1,7 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
+title: "A note from Bargav"
 date: {{ .Date }}
 type: notes
-keywords:
-description:
-draft: false
+draft: true
 ---
 [comment]: # (A note is any quick thought, quote, one-liners or a simple tweet. )

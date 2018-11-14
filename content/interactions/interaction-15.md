@@ -1,5 +1,5 @@
 ---
-title: "Interaction With Stranger 15"
+title: "Interactions of B"
 date: 2017-10-09T19:34:10-05:00
 type: interactions
 keywords: interactions, interaction with stranger, change in life, inspiration
