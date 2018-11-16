@@ -1,6 +1,11 @@
 {{ define "main" }}
 
  <section id="main">
+   {{ if ne .Type "page"}}
+   <span style="color: grey;font-size: large;"> {{ .Type | humanize | singularize }}  &middot; </span>
+   <span style="color: grey;font-size: large;"> {{ .Date.Format "Jan 2, 2006" }} &middot; </span>
+   <span style="color: grey;font-size: large;"> {{ .ReadingTime }}min read </span>
+   {{ end }}
    <div>
         <article id="content">
            {{ .Content }}
@@ -10,9 +15,6 @@
  <br/> <br/>
 
   {{ if ne .Type "page"}}
-  <span style="font-size: 12px;"> {{ .Type | humanize | singularize }} </span> &middot;
-  <span style="font-size: 12px;"> {{ .Date.Format "Jan 2, 2006" }} </span> &middot;
-  <span style="font-size: 12px;"> {{ .ReadingTime }}min read </span>
    {{partial "social-share" .}}
    <hr>
    {{ partial "prevnext" . }}

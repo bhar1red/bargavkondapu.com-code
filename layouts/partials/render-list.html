@@ -8,10 +8,10 @@
         </a>
         {{end}}
         {{ end }}
-        <span style="font-size: 12px;"> {{ .Type | humanize | singularize }} </span> &middot;
-        <span style="font-size: 12px;"> {{ .Date.Format "Jan 2, 2006" }} </span> &middot;
-        <span style="font-size: 12px;"> <a href="{{.Permalink}}"> <i class="fa fa-chain"></i> Permalink </a>  </span> &middot;
-        <span style="font-size: 12px;"> {{ .ReadingTime }}min read </span>
+        <span style="color: grey;font-size: large;"> <i class="fa fa-tag" aria-hidden="true"></i> {{ .Type | humanize | singularize }} &middot; </span>
+        <span style="color: grey;font-size: large;"> <i class="fa fa-calendar" aria-hidden="true"></i> {{ .Date.Format "Jan 2, 2006" }} &middot; </span>
+        <span style="color: grey;font-size: large;"> <a href="{{.Permalink}}"> <i class="fa fa-chain"></i> Permalink </a> &middot; </span>
+        <span style="color: grey;font-size: large;"> {{ .ReadingTime }}min read </span>
 
         {{ end }}
 
