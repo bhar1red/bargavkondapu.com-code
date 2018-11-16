@@ -3,7 +3,7 @@ title: "Interactions of B"
 date: 2017-09-19T18:40:07-05:00
 type: interactions
 keywords: interactions, interaction with stranger, happiness, be happy
-image: https://res.cloudinary.com/dkjdeuwlv/image/upload/v1541988626/bargavkondapu.com/posts/lady-driving.png
+image: https://res.cloudinary.com/dkjdeuwlv/image/upload/v1541988626/bargavkondapu.com/posts/lady-driving.webp
 imagealt: Sketch of a lady driving
 imagecredits: © bargavkondapu
 description:
@@ -11,7 +11,7 @@ draft: false
 ---
 [comment]: # (Interactions with strangers )
 
-![Prive is what we pay, value is what we get](https://res.cloudinary.com/dkjdeuwlv/image/upload/v1541988626/bargavkondapu.com/posts/lady-driving.png)
+![Prive is what we pay, value is what we get](https://res.cloudinary.com/dkjdeuwlv/image/upload/v1541988626/bargavkondapu.com/posts/lady-driving.webp)
 
 Interaction with a Lyft driver, Ms. X, as soon as I got into the car and greeted her with big smile and a happy face.
 

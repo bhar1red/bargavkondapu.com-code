@@ -4,7 +4,7 @@ date: 2018-11-16T01:42:49-05:00
 type: projects
 description: description goes here  
 keywords: drupal, custom module, taxonomy, clean up tags, remove similar taxonomy, website, web development
-image: https://res.cloudinary.com/dkjdeuwlv/image/upload/c_scale,w_auto,q_auto/v1541969158/bargavkondapu.com/projects/code-preview.jpg
+image: https://res.cloudinary.com/dkjdeuwlv/image/upload/c_scale,w_auto,q_auto/v1541969158/bargavkondapu.com/projects/code-preview.webp
 imagealt: Programming Code
 imagecredits: © [cronislaw] /Adobe Stock
 categories: ["Drupal"]

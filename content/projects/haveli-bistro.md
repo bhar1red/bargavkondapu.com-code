@@ -4,7 +4,7 @@ date: 2018-11-16T01:43:11-05:00
 type: projects
 description: description goes here  
 keywords: keywords (recommended but optional)
-image: https://res.cloudinary.com/dkjdeuwlv/image/upload/c_scale,w_auto,q_auto/v1542351246/bargavkondapu.com/projects/haveli-bistro.png
+image: https://res.cloudinary.com/dkjdeuwlv/image/upload/c_scale,w_auto,q_auto/v1542351246/bargavkondapu.com/projects/haveli-bistro.webp
 imagealt: Image Alt text  
 imagecredits: Image credits
 categories:

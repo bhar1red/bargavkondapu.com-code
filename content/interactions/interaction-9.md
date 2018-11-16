@@ -3,7 +3,7 @@ title: "Interactions of B"
 date: 2017-08-30T18:39:59-05:00
 type: interactions
 keywords: interactions, interaction with stranger
-image: https://res.cloudinary.com/dkjdeuwlv/image/upload/v1522513781/bargavkondapu.com/IWS-skill-mastery.jpg
+image: https://res.cloudinary.com/dkjdeuwlv/image/upload/v1522513781/bargavkondapu.com/IWS-skill-mastery.webp
 imagealt: Mastering a Skill
 imagecredits: © bargavkondapu
 description:
@@ -11,7 +11,7 @@ draft: false
 ---
 [comment]: # (Interactions with strangers )
 
-![Mastering a skill](https://res.cloudinary.com/dkjdeuwlv/image/upload/v1522513781/bargavkondapu.com/IWS-skill-mastery.jpg)
+![Mastering a skill](https://res.cloudinary.com/dkjdeuwlv/image/upload/v1522513781/bargavkondapu.com/IWS-skill-mastery.webp)
 
 Mr. X, A Developer, Guitarist, Writer, Photographer, Entrepreneur, Boxer, Stocks ... (Not a beginner, Successful in all those fields)
 
