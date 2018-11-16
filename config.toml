@@ -1,7 +1,7 @@
 baseURL = "https://bargavkondapu.com"
 languageCode = "en-us"
 title = "Bargav Kondapu"
-tags=["interactions", "development", "motivation", "code"]
+tags=["leadership", "motivation","mythology", "philosophy"]
 categories=["interactions","technology","development","tutorial", "blogs", "drupal", "emberjs", "web-development","angularjs"]
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
