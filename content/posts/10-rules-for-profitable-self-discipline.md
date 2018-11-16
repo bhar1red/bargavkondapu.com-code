@@ -57,6 +57,7 @@ An interaction doesn't mean that one has to loose, for other person to win. For 
 
 #### 6. Learn the almost forgotten art of asking questions and then listening to their answer
 ![Father having conversation with son](https://res.cloudinary.com/dkjdeuwlv/image/upload/c_scale,w_auto,q_auto/v1542342777/bargavkondapu.com/posts/people-talking-father-son.jpg)
+{{< copyright "© [LIGHTFIELD STUDIOS] /Adobe Stock" >}}
 
 Everyday, I hear at least two people, asking me 'How are you?', and then walk away before I even answer. I have done that a lot of times too, we ask questions for sake of asking, never really concerned about the answer. It has became an almost forgotten art. So next time, when you ask a question, try to pause/refrain yourself from walking away or asking more questions, and listen to what they have to answer. You will experience an exponential growth of friendship, trust and connection with them.
 
