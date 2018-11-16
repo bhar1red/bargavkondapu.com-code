@@ -4,12 +4,12 @@ date: 2017-06-25T14:53:00-05:00
 type: projects
 description: A website build for the first responders. Built in Drupal using panels and layout modules.
 keywords: drupal, drupal8, firstnet, website, web development
-image: https://res.cloudinary.com/dkjdeuwlv/image/upload/v1541962744/bargavkondapu.com/projects/firstnet.png
+image: https://res.cloudinary.com/dkjdeuwlv/image/upload/c_scale,w_auto,q_auto/v1541962744/bargavkondapu.com/projects/firstnet.png
 imagealt: FirstNet
 imagecredits: screenshot of firstnet.com
 categories: ["web-development",  "Drupal"]
 project-url:
-draft: true
+draft: false
 ---
 
 [comment]: # (Project should contain Summary, Description, Repo and Live urls, Screenshot or demo video and Tutorials( if any.))

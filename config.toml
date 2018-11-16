@@ -10,6 +10,7 @@ PygmentsStyle = "monokai"
   description = "Hi! I am Bargav. I develop websites and help organizations establish their digital presence. I like sharing knowledge and inspirations, and having deep conversations with people."
   site_image = "https://bargavkondapu.com/images/bk-profile.jpg"
   default_image = "/images/laptop-journal.jpeg"
+  default_image_alt = "Bargav Kondapu"
 
   author = "Bargav Kondapu"
   author_description = "Hi! I am Bargav. I develop websites and help organizations establish their digital presence. I like sharing knowledge and inspirations, and having deep conversations with people."

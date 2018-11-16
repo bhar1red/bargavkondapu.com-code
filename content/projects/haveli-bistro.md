@@ -1,21 +1,23 @@
 ---
-title: "Architectural Adventures"
-date: 2016-12-11T14:32:21-05:00
+title: "Haveli Bistro"
+date: 2018-11-16T01:43:11-05:00
 type: projects
-description: A decoupled website, build in drupal and emberjs
-keywords: drupal, emberjs, aia, american institute of architects, architectural adventures, website, web development
-image: https://res.cloudinary.com/dkjdeuwlv/image/upload/c_scale,w_auto,q_auto/v1541962729/bargavkondapu.com/projects/architectural-adventures-aia.png
-imagealt: Architectural Adventures
-imagecredits: Screenshot of architecturaladventures.org
-categories: ["web-development",  "Drupal", "EmberJS"]
-project-url: https://www.architecturaladventures.org/
+description: description goes here  
+keywords: keywords (recommended but optional)
+image: https://res.cloudinary.com/dkjdeuwlv/image/upload/c_scale,w_auto,q_auto/v1542351246/bargavkondapu.com/projects/haveli-bistro.png
+imagealt: Image Alt text  
+imagecredits: Image credits
+categories:
+project-url:
 draft: false
 ---
 
 [comment]: # (Project should contain Summary, Description, Repo and Live urls, Screenshot or demo video and Tutorials( if any.))
 
+[comment]: # (Website/organization description)
 [Architectural Adventures](https://www.architecturaladventures.org/) is the official travel program of [The American Institute of Architects](https://www.aia.org/), offering first-rate experiences in breathtaking destinations across the globe.
 
+[comment]: # (Details about project)
 This is implemented during my job at AIA. It follows the same architecture and principles as that of the the [previous project](/projects/the-american-institute-of-architects).
 
 **Project URL:** https://www.architecturaladventures.org/
