@@ -2,25 +2,20 @@
 title: "Haveli Bistro"
 date: 2018-11-16T01:43:11-05:00
 type: projects
-description: description goes here  
-keywords: keywords (recommended but optional)
+description: Haveli bistro is an upscale indian restaurant. This project includes Haveli's branding and fron-facing website.
+keywords: haveli bistro, restaurant, web-design
 image: https://res.cloudinary.com/dkjdeuwlv/image/upload/c_scale,w_auto,q_auto/v1542351246/bargavkondapu.com/projects/haveli-bistro.webp
-imagealt: Image Alt text  
-imagecredits: Image credits
-categories:
-project-url:
+imagealt: Haveli bistro
+imagecredits: screenshot of Havelibistro
+categories: ["web-development",  "Duda"]
+project-url: https://www.havelibistro.com/
 draft: false
 ---
 
-[comment]: # (Project should contain Summary, Description, Repo and Live urls, Screenshot or demo video and Tutorials( if any.))
+Haveli bistro is an upscale Indian restaurant, in Down Town Columbus, Ohio.
 
-[comment]: # (Website/organization description)
-[Architectural Adventures](https://www.architecturaladventures.org/) is the official travel program of [The American Institute of Architects](https://www.aia.org/), offering first-rate experiences in breathtaking destinations across the globe.
+I have worked on branding and development of the website. Website is built and hosted in [DUDA](https://www.duda.co/) professional webbuilder.
 
-[comment]: # (Details about project)
-This is implemented during my job at AIA. It follows the same architecture and principles as that of the the [previous project](/projects/the-american-institute-of-architects).
+**Project URL:** https://www.havelibistro.com/
 
-**Project URL:** https://www.architecturaladventures.org/
-
-**Technologies Used :**  [Drupal](https://www.drupal.org/), [EmberJS](https://www.emberjs.com/),
- [NodeJs](https://nodejs.org/en/), [ElasticSearch](https://www.elastic.co/), [Travis-CI](https://travis-ci.org/), [Github](https://github.com/), [Amazon AWS](https://aws.amazon.com/).
+**Technologies Used :**  [Duda](https://www.duda.co/),
