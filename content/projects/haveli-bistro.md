@@ -1,6 +1,6 @@
 ---
 title: "Haveli Bistro"
-date: 2018-11-16T01:43:11-05:00
+date: 2017-03-20T01:43:11-05:00
 type: projects
 description: Haveli bistro is an upscale indian restaurant. This project includes Haveli's branding and fron-facing website.
 keywords: haveli bistro, restaurant, web-design

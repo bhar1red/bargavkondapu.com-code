@@ -1,6 +1,6 @@
 ---
 title: "Drupal 7 Migrate Taxonomy to Organic Groups"
-date: 2018-11-16T01:42:49-05:00
+date: 2017-11-10T16:00:42-05:00
 type: projects
 description: Drupal 7 custom module to migrate from taxonomy to organic groups
 keywords: drupal, custom module, taxonomy, clean up tags, remove similar taxonomy, website, web development
