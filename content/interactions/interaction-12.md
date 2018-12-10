@@ -11,7 +11,7 @@ draft: false
 ---
 [comment]: # (Interactions with strangers )
 
-![Prive is what we pay, value is what we get](https://res.cloudinary.com/dkjdeuwlv/image/upload/v1541988626/bargavkondapu.com/posts/lady-driving.webp)
+![Prive is what we pay, value is what we get](https://res.cloudinary.com/dkjdeuwlv/image/upload/c_scale,w_auto,q_auto/v1541988626/bargavkondapu.com/posts/lady-driving.webp)
 
 Interaction with a Lyft driver, Ms. X, as soon as I got into the car and greeted her with big smile and a happy face.
 
