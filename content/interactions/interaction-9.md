@@ -11,7 +11,7 @@ draft: false
 ---
 [comment]: # (Interactions with strangers )
 
-![Mastering a skill](https://res.cloudinary.com/dkjdeuwlv/image/upload/v1522513781/bargavkondapu.com/IWS-skill-mastery.webp)
+![Mastering a skill](https://res.cloudinary.com/dkjdeuwlv/image/upload/c_scale,w_auto,q_auto,f_auto/v1522513781/bargavkondapu.com/IWS-skill-mastery.jpg)
 
 Mr. X, A Developer, Guitarist, Writer, Photographer, Entrepreneur, Boxer, Stocks ... (Not a beginner, Successful in all those fields)
 

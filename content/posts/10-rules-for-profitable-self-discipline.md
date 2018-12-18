@@ -4,7 +4,7 @@ date: 2018-11-13T23:10:40-05:00
 type: posts
 description:
 keywords: self discipline, effective communication, leadership, Laws of Success
-image: https://res.cloudinary.com/dkjdeuwlv/image/upload/c_scale,w_1200/v1542169162/bargavkondapu.com/posts/People-talking.webp
+image: https://res.cloudinary.com/dkjdeuwlv/image/upload/c_scale,w_1200,f_auto/v1542169162/bargavkondapu.com/posts/People-talking.webp
 imagealt: People communicating at work
 imagecredits: © [ivanko80] /Adobe Stock
 tags: ["Leadership", "Philosophy", "Motivation"]
@@ -28,7 +28,7 @@ __10. Tolerance in human relations is just as important as tolerance in operatio
 
 These principle apply in any healthy relationship, be it work, friends or family. Let’s discuss more about what each of those statements mean.
 
-![People communicating](https://res.cloudinary.com/dkjdeuwlv/image/upload/c_scale,w_auto,q_auto/v1542169162/bargavkondapu.com/posts/People-talking.webp)
+![People communicating](https://res.cloudinary.com/dkjdeuwlv/image/upload/c_scale,w_auto,q_auto,f_auto/v1542169162/bargavkondapu.com/posts/People-talking.jpg)
 {{< copyright "© [ivanko80] /Adobe Stock" >}}
 
 Napoleon Hill is one of the greatest and influential authors of all time, famous for his best selling books likes 'Think and Grow Rich', 'Law of Success', 'Outwitting the Devil'  and many more. His books had a profound impact on me and this post is one of his precious advices.
@@ -56,7 +56,7 @@ When engaged in a conversation with any person, treat them as you would treat yo
 An interaction doesn't mean that one has to loose, for other person to win. For example, in a work meeting, instead of going into 'my idea vs your idea', try to find a solution that would benefit both. Look for a seed of eqiovalent benefit in every situation.
 
 #### 6. Learn the almost forgotten art of asking questions and then listening to their answer
-![Father having conversation with son](https://res.cloudinary.com/dkjdeuwlv/image/upload/c_scale,w_auto,q_auto/v1542342777/bargavkondapu.com/posts/people-talking-father-son.webp)
+![Father having conversation with son](https://res.cloudinary.com/dkjdeuwlv/image/upload/c_scale,w_auto,q_auto,f_auto/v1542342777/bargavkondapu.com/posts/people-talking-father-son.jpg)
 {{< copyright "© [LIGHTFIELD STUDIOS] /Adobe Stock" >}}
 
 Everyday, I hear at least two people, asking me 'How are you?', and then walk away before I even answer. I have done that a lot of times too, we ask questions for sake of asking, never really concerned about the answer. It has became an almost forgotten art. So next time, when you ask a question, try to pause/refrain yourself from walking away or asking more questions, and listen to what they have to answer. You will experience an exponential growth of friendship, trust and connection with them.

@@ -3,7 +3,7 @@ title: "Interactions of B"
 date: 2017-10-26T19:34:13-05:00
 type: interactions
 keywords: interactions, interaction with stranger
-image: https://res.cloudinary.com/dkjdeuwlv/image/upload/c_scale,w_1200,q_auto/v1522513781/bargavkondapu.com/IWS-price-value.webp
+image: https://res.cloudinary.com/dkjdeuwlv/image/upload/c_scale,w_1200,q_auto,f_auto/v1522513781/bargavkondapu.com/IWS-price-value.jpg
 imagealt: Price is what we pay, value is what we get
 imagecredits: © bargavkondapu
 description:
@@ -11,7 +11,7 @@ draft: false
 ---
 [comment]: # (Interactions with strangers )
 
-![Prive is what we pay, value is what we get](https://res.cloudinary.com/dkjdeuwlv/image/upload/c_scale,w_auto,q_auto/v1522513781/bargavkondapu.com/IWS-price-value.webp)
+![Prive is what we pay, value is what we get](https://res.cloudinary.com/dkjdeuwlv/image/upload/c_scale,w_auto,q_auto,f_auto/v1522513781/bargavkondapu.com/posts/IWS-price-value.jpg)
 
 I don't usually get offended or irritated, but interactions like these, make me feel uncomfortable.
 

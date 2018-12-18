@@ -7,7 +7,7 @@ description:
 draft: false
 ---
 [comment]: # (Interactions with strangers )
-![Fast car](https://res.cloudinary.com/dkjdeuwlv/image/upload/v1541982407/bargavkondapu.com/sketch-1508204120499.webp)
+![Fast car](https://res.cloudinary.com/dkjdeuwlv/image/upload/c_scale,w_auto,q_auto,f_auto/v1541982407/bargavkondapu.com/sketch-1508204120499.jpg)
 
 Interaction with an amazing professor of Philosophy, Ms. X, while waiting for pizza.
 

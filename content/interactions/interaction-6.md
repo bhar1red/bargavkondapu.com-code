@@ -18,4 +18,4 @@ Me, smiling (Almost laughing) : Good luck 😂
 
 Casue this was me, a few days before this happened.
 
-![Bargav's Beard](https://res.cloudinary.com/dkjdeuwlv/image/upload/c_scale,h_350/v1541981264/bargavkondapu.com/Me/16804240_1578125538894690_1465294799710009889_o.webp)
+![Bargav's Beard](https://res.cloudinary.com/dkjdeuwlv/image/upload/c_scale,h_350/f_auto/v1541981264/bargavkondapu.com/Me/16804240_1578125538894690_1465294799710009889_o.jpg)

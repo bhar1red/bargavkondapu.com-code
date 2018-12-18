@@ -4,7 +4,7 @@ date: 2017-09-06T01:07:11-05:00
 type: posts
 description:
 keywords:
-image: https://res.cloudinary.com/dkjdeuwlv/image/upload/c_scale,w_1200,q_auto/v1541960695/bargavkondapu.com/posts/raavana-anugraha.webp
+image: https://res.cloudinary.com/dkjdeuwlv/image/upload/c_scale,w_1200,q_auto,f_auto/v1541960695/bargavkondapu.com/posts/raavana-anugraha.jpg
 imagealt: Ravananugraha
 imagecredits: © bargavkondapu
 tags: ["Mythology", "Leadership"]
@@ -12,7 +12,7 @@ draft: false
 ---
 [comment]: # ( Post include personal views, articles, tutorials. )
 
-![Ravana trying to lift Mt. Kailash](https://res.cloudinary.com/dkjdeuwlv/image/upload/c_scale,w_auto,q_auto/v1541960695/bargavkondapu.com/posts/raavana-anugraha.webp)
+![Ravana trying to lift Mt. Kailash](https://res.cloudinary.com/dkjdeuwlv/image/upload/c_scale,w_auto,q_auto,f_auto/v1541960695/bargavkondapu.com/posts/raavana-anugraha.jpg)
 
 Raavana, Overconfident and obsessed with his powers, once wanted to meet Shiva but Nandhi (Shiva's gatekeeper) denies his entry to Mt. Kailash.  
 
