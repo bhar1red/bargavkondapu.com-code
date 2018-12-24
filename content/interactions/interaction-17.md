@@ -3,10 +3,10 @@ title: "Interactions of B"
 date: 2017-11-23T19:36:03-05:00
 type: interactions
 keywords: interactions, interaction with stranger
-image:
-imagealt:
-imagecredits:
 description:
+image: https://bargavkondapu.com/images/bk-interactions-square.jpg
+imagealt: Interactions of B
+imagecredits: © [Bargav Kondapu]
 draft: false
 ---
 [comment]: # (Interactions with strangers )

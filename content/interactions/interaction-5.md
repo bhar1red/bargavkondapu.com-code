@@ -4,6 +4,9 @@ date: 2015-08-12T18:39:45-05:00
 type: interactions
 keywords: interactions, interaction with stranger
 description:
+image: https://bargavkondapu.com/images/bk-interactions-square.jpg
+imagealt: Interactions of B
+imagecredits: © [Bargav Kondapu]
 draft: false
 ---
 [comment]: # (Interactions with strangers )

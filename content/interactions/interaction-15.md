@@ -3,9 +3,9 @@ title: "Interactions of B"
 date: 2017-10-09T19:34:10-05:00
 type: interactions
 keywords: interactions, interaction with stranger, change in life, inspiration
-image:
-imagealt:
-imagecredits:
+image: https://bargavkondapu.com/images/bk-interactions-square.jpg
+imagealt: Interactions of B
+imagecredits: © [Bargav Kondapu]
 description:
 draft: false
 ---

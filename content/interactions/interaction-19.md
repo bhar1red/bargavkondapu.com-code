@@ -3,10 +3,10 @@ title: "Interactions of B"
 date: 2018-12-19T21:28:48-05:00
 type: interactions
 keywords: interactions, interaction with stranger
-image:
-imagealt:
-imagecredits:
 description:
+image: https://bargavkondapu.com/images/bk-interactions-square.jpg
+imagealt: Interactions of B
+imagecredits: © [Bargav Kondapu]
 draft: false
 ---
 [comment]: # (Interactions with strangers )
@@ -27,6 +27,6 @@ Me : Well, another one.
 X - Drew 3 more figures : This is the princess, you see her big gown. This is the bad guy.
 Prince came and fights the bad guy and saved the princess.
 
-As cute as she said it, it is equally frightening. This is not how children should be influenced. 
+As cute as she said it, it is equally frightening. This is not how children should be influenced.
 
 *To all young girls - There will be no prince charming, coming to your rescue. You have to fight your own battles.*

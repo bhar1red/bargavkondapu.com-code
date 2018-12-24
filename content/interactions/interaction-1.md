@@ -4,6 +4,9 @@ date: 2014-11-06T11:02:28-05:00
 type: interactions
 keywords: interactions, interaction with stranger, good morning, fun interaction
 description:
+image: https://bargavkondapu.com/images/bk-interactions-square.jpg
+imagealt: Interactions of B
+imagecredits: © [Bargav Kondapu]
 draft: false
 ---
 [comment]: # (Interactions with strangers )

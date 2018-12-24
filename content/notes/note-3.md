@@ -4,6 +4,9 @@ date: 2015-03-02T20:07:18-05:00
 type: notes
 keywords:
 description:
+image: https://bargavkondapu.com/images/bk-notes-square.jpg
+imagealt: A note from Bargav
+imagecredits: © [Bargav Kondapu]
 draft: false
 ---
 [comment]: # (A note is any quick thought, quote, one-liners or a simple tweet. )
