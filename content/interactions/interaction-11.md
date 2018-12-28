@@ -4,13 +4,13 @@ date: 2017-09-17T18:40:05-05:00
 type: interactions
 keywords: interactions, interaction with stranger, simon sinek, start with why, journey, motivation
 description:
-image: https://bargavkondapu.com/images/bk-interactions-square.jpg
+image: https://res.cloudinary.com/dkjdeuwlv/image/upload/c_scale,w_auto,q_auto,f_auto/v1541982407/bargavkondapu.com/posts/sketch-1508204120499.jpg
 imagealt: Interactions of B
 imagecredits: © [Bargav Kondapu]
 draft: false
 ---
 [comment]: # (Interactions with strangers )
-![Fast car](https://res.cloudinary.com/dkjdeuwlv/image/upload/c_scale,w_auto,q_auto,f_auto/v1541982407/bargavkondapu.com/sketch-1508204120499.jpg)
+![Fast car](https://res.cloudinary.com/dkjdeuwlv/image/upload/c_scale,w_auto,q_auto,f_auto/v1541982407/bargavkondapu.com/posts/sketch-1508204120499.jpg)
 
 Interaction with an amazing professor of Philosophy, Ms. X, while waiting for pizza.
 
