@@ -6,6 +6,9 @@ categories=["interactions","technology","development","tutorial", "blogs", "drup
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
 
+[markup.goldmark.renderer]
+unsafe = true
+
 [params]
   description = "Hi! I am Bargav. I develop websites and help organizations establish their digital presence. I like sharing knowledge and inspirations, and having deep conversations with people."
   site_image = "https://bargavkondapu.com/images/bargavkondapu-cover.jpg"

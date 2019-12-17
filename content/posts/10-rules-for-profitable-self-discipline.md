@@ -80,12 +80,3 @@ In human relations too, No one can have nominal value. One must have a tolerance
 
 
 I came across these, initially through a video on youtube, with title 'Napoleon Hill - 10 Rules of Self Discipline'. Since then, I try to incorporate these rules into my daily interactions and I observed a great  improvement in my self-being, as well as relationship with other people. These principles are originally from his book 'The Law of Success'. I would highly encourage everyone to read Napoleon Hill's books. They contain timeless pieces of advice, that will help you throughout your life.
-
-<div style="width: 100%">
-
-<iframe title="The Law of Success, by Napoleon Hill - Amazon Ad" style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=bhar1red07-20&marketplace=amazon&region=US&placement=1617201782&asins=1617201782&linkId=5ac883bf3e8a71bb0b76f5fc2e743d16&show_border=false&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff">
-    </iframe>
-
-    <iframe title="Think and Grow Rich, by Napoleon Hill - Amazon Ad" style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=bhar1red07-20&marketplace=amazon&region=US&placement=B000XJNDVQ&asins=B000XJNDVQ&linkId=42b38e3e992f188cce995739e28c5729&show_border=false&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff">
-        </iframe>
-</div>
