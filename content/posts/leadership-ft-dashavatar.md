@@ -3,7 +3,7 @@ title: "Leadership Ft Dashavatar"
 date: 2017-09-27T16:25:16-05:00
 type: posts
 description: This article explains the qualities of present day leaders, with reference to 'Dashavataram, as depicted in Hindu mythology'.
-keywords: Mythology, Dashavaram, Leadership, inspiration
+keywords: Mythology, Dashavaram, Leadership, Inspiration
 image: https://res.cloudinary.com/dkjdeuwlv/image/upload/c_scale,w_auto,f_auto/v1522513666/bargavkondapu.com/posts/dashavatar_cover.jpg
 imagealt: Dashavatar-ft-leadership
 imagecredits: © bargavkondapu
