@@ -1,0 +1,31 @@
+---
+label: Post
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: type
+  label: type
+- type: textarea
+  name: description
+  label: description
+- type: text
+  name: keywords
+  label: keywords
+- type: file
+  name: image
+  label: image
+- type: text
+  name: imagealt
+  label: imagealt
+- type: text
+  name: imagecredits
+  label: imagecredits
+- type: list
+  name: tags
+  label: tags
