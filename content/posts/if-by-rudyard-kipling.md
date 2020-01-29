@@ -4,9 +4,9 @@ date: 2020-01-29T08:48:53-05:00
 type: posts
 description: This poem has been a source of inspiration since I first read it. A must read for everyone.
 keywords: Motivation, Poetry, Inspiration
-image: https://res.cloudinary.com/dkjdeuwlv/image/upload/c_scale,w_500,f_auto/v1580319655/bargavkondapu.com/posts/if-rudyard-kipling.jpg
+image: https://res.cloudinary.com/dkjdeuwlv/image/upload/c_fill,h_350,w_500,f_auto/v1580319655/bargavkondapu.com/posts/if-rudyard-kipling.jpg
 imagealt: If By Rudyard Kipling
-imagecredits: © [Photographer's name] /Website
+imagecredits:
 tags: ["Development", "Language", "Blogging"]
 draft: false
 ---
