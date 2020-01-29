@@ -7,7 +7,7 @@ keywords: Motivation, Poetry, Inspiration
 image: https://res.cloudinary.com/dkjdeuwlv/image/upload/c_fill,h_350,w_500,f_auto/v1580319655/bargavkondapu.com/posts/if-rudyard-kipling.jpg
 imagealt: If By Rudyard Kipling
 imagecredits:
-tags: ["Development", "Language", "Blogging"]
+tags: ["Motivation", "Leadership", "Development"]
 draft: false
 ---
 [comment]: # ( Post include personal views, articles, tutorials. )
