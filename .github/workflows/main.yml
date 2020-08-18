@@ -50,12 +50,15 @@ jobs:
       - name: hugo Deploy
         run: |
           hugo -D
+          ls -l
           
       - name: Add ssh and Deploy public folder
         run: |
           eval "$(ssh-agent -s)"
           ssh-add - <<< "${{ secrets.GIT_SECRET_KEY }}"
           cd public
+          git status
+          ls -l 
           git add .
           git commit -m "Site deploy"
           git push -u origin master
