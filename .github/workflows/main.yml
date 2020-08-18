@@ -31,6 +31,21 @@ jobs:
         run: |
           hugo version
       
+      # Setup Git in public folder
+      - name: Setup Git in public folder
+        run: |
+          mkdir public
+          cd public 
+          eval "$(ssh-agent -s)"
+          ssh-add - <<< "${{ secrets.GIT_SECRET_KEY }}"
+          git config --global user.email "bhar1red@gmail.com"
+          git config --global user.name "Bargav Kondapu"  
+          git init 
+          git remote add origin git@github.com:bhar1red/bhar1red.github.io.git 
+          git pull origin master 
+          cd ..     
+          
+      
       # Hugo deploy to public folder
       - name: hugo Deploy
         run: |
@@ -41,13 +56,8 @@ jobs:
           eval "$(ssh-agent -s)"
           ssh-add - <<< "${{ secrets.GIT_SECRET_KEY }}"
           cd public
-          git init
-          git config user.email "bhar1red@gmail.com"
-          git config user.name "Bargav Kondapu"
           git add .
           git commit -m "Site deploy"
-          git remote add origin git@github.com:bhar1red/bhar1red.github.io.git
-          git config pull.rebase true 
           git push -u origin master
         
           
