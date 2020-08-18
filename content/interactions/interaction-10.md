@@ -7,7 +7,7 @@ description:
 image: https://bargavkondapu.com/images/bk-interactions-square.jpg
 imagealt: Interactions of B
 imagecredits: © [Bargav Kondapu]
-draft: false
+draft: true
 ---
 [comment]: # (Interactions with strangers )
 
