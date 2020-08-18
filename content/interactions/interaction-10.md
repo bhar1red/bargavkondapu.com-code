@@ -21,6 +21,3 @@ X: Life has been very forgiving & really made the last few years easy. Expanding
 Me: Cool! 'Life has been forgiving and easy', good to hear that line when most of us were complaining 'it sucks! '
 
 X: Probably MBA effect or really our talent - but really doing good compared to competition & many others of same age group. So, can't complain. Just have to learn & keep growing.
-
-
-dummy content
