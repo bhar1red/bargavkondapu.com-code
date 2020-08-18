@@ -30,7 +30,25 @@ jobs:
       - name: Display hugo version
         run: |
           hugo version
-          ls -l 
+      
+      # Hugo deploy to public folder
+      - name: hugo Deploy
+        run: |
+          hugo -D
+          
+      - name: Add ssh and Deploy public folder
+        run: |
+          eval "$(ssh-agent -s)"
+          ssh-add - <<< "${{ secrets.GIT_SECRET_KEY }}"
+          cd public
+          git init
+          git config user.email "bhar1red@gmail.com"
+          git config user.name "Bargav Kondapu"
+          git add .
+          git commit -m "Site deploy"
+          git remote add origin git@github.com:bhar1red/bhar1red.github.io.git
+          git push -u origin master
+        
           
           
       
