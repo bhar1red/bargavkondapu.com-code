@@ -14,3 +14,5 @@ draft: false
 You don't get paid for how much stress you take,
 
 You get paid for how much value you provide.
+
+#mindset #motivation
