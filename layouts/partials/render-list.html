@@ -8,15 +8,17 @@
         </a>
         {{end}}
         {{ end }}
-        <span style="color: grey;font-size: large;"> <i class="fa fa-tag" aria-hidden="true"></i> {{ .Type | humanize | singularize }} &middot; </span>
-        <span style="color: grey;font-size: large;"> <i class="fa fa-calendar" aria-hidden="true"></i> {{ .Date.Format "Jan 2, 2006" }} &middot; </span>
-        <span style="color: grey;font-size: large;"> <a href="{{.Permalink}}"> <i class="fa fa-chain"></i> Permalink </a> &middot; </span>
-        <span style="color: grey;font-size: large;"> {{ .ReadingTime }}min read </span>
-
         {{ end }}
+        <p> {{ .Content }} </p>
 
-         <p> {{ .Content }} </p>
-         {{ partial "social-share" .}}
+        {{ if ne .Type "page"}}
+        <span style="color: dimgray;font-size: large;"> <i class="fa fa-tag" aria-hidden="true"></i> {{ .Type | humanize | singularize }} &middot; </span>
+        <span style="color: dimgray;font-size: large;"> <i class="fa fa-calendar" aria-hidden="true"></i> {{ .Date.Format "Jan 2, 2006" }} &middot; </span>
+        <span style="color: dimgray;font-size: large;"> <a href="{{.Permalink}}"> <i class="fa fa-chain"></i> Permalink </a> &middot; </span>
+        <span style="color: dimgray;font-size: large;"> {{ .ReadingTime }}min read </span>
+        {{end}}
+
+
       </div>
 <hr>
 {{ end }}
