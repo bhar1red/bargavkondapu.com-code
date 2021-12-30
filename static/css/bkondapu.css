@@ -116,10 +116,20 @@ hr{
 
 
 .bk-maincontent{
-  font-size: x-large;
-  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+/*  font-size: x-large;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif; */
   padding-bottom: unset;
   padding-top: 64px;
+}
+
+.bk-maincontent{
+    font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-style: normal;
+    font-size: 21px;
+    font-weight: 400;
+    letter-spacing: -0.004em;
+    line-height: 1.58;
+    word-wrap: break-word;
 }
 
 .bk-copyright-text{
@@ -129,6 +139,10 @@ hr{
 
 .bk-cover{
     padding-bottom: 8px;
+}
+
+.bk-prevnext{
+    font-size: medium;
 }
 
  blockquote {
@@ -146,6 +160,21 @@ blockquote:before {
 }
 blockquote p {
   display: inline;
+}
+
+.footer{
+    font-size: small;
+    font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif;
+    color: dimgray;
+}
+
+.pointer-link{
+    cursor: pointer;
+}
+
+.bk-social-share summary{
+    font-size: large;
+    color: dimgray;
 }
 
 /* blockquote{
