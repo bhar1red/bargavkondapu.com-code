@@ -4,16 +4,12 @@
 {{ partial "head" . }}
 
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TFV7C59"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
 
 {{ partialCached "navigation" . }}
 
 {{ partial "header" . }}
 
-<div class="w3-container w3-content w3-padding-64 bk-maincontent">
+<div class="w3-container w3-content bk-maincontent">
 {{ block "main" . }}
   <!-- The part of the page that begins to differ between templates -->
 {{ end }}
