@@ -1,21 +1,11 @@
-<nav class="navigation" >
-
-<div class="main-nav">
-  <a href="/">Bargav Kondapu</a>
-  {{with .Site.Menus.main}}
-  {{ range sort . "Weight" "desc"}}
-    <a href="{{ .URL }}">{{.Name}}</a>
-  {{end}}
-  {{end}}
-  <a href="javascript:void(0)" onclick="myFunction()">&#9776;</a>
-</div>
-
-
-<div id="mobile-nav">
-  {{with .Site.Menus.main}}
-  {{ range sort . "Weight" "desc"}}
-    <a href="{{ .URL }}">{{.Name}}</a>
-  {{end}}
-  {{end}}
-</div>
+<nav class="main-nav">
+  <a href="/" class="{{ if .IsHome }}active{{ end }}">
+    <span class="nav-full">Bargav Kondapu</span>
+    <span class="nav-short">BK</span>
+  </a>
+  {{ with .Site.Menus.main }}
+    {{ range sort . "Weight" "desc" }}
+      <a href="{{ .URL }}" class="{{ if or ($.IsMenuCurrent "main" .) ($.IsMenuCurrent "section" .) }}active{{ end }}">{{ .Name }}</a>
+    {{ end }}
+  {{ end }}
 </nav>
