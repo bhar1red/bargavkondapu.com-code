@@ -111,11 +111,11 @@ hr {
 .nav-short { display: none; }
 .nav-full { display: inline; }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .nav-full { display: none; }
   .nav-short { display: inline; }
 }
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .main-nav {
     gap: 1em;
     max-width: 100%;
@@ -130,7 +130,7 @@ hr {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .bk-maincontent {
     max-width: 100%;
     margin: 0;
@@ -146,6 +146,7 @@ hr {
   list-style: none;
   display: flex;
   gap: 0.5em;
+  justify-content: center; /* Center the pagination */;
 }
 
 .bk-pagination ul li {
@@ -156,10 +157,13 @@ hr {
   transition: background 0.2s;
 }
 
-.bk-pagination ul li.active {
-  background: #00796b;
+.bk-pagination ul li.active a {
+  background: #00796b; 
   color: #fff;
   font-weight: bold;
+  padding: 0.3em 1em;   /* Add padding for a larger clickable area */
+  border-radius: 4px;   /* Optional: keep rounded corners */
+  display: inline-block; /* Ensures padding applies correctly */
 }
 
 .bk-pagination ul li.disabled {
@@ -272,10 +276,14 @@ blockquote p {
 .footer {
   font-size: 0.95em;
   color: #888;
-  text-align: center;
-  margin: 3em 0 1em 0;
+  text-align: left;                /* Left-justify text */
+  margin: 3em auto 1em auto;       /* Center the footer block */
   background: none;
   border: none;
+  max-width: 700px;                /* Match main-content width */
+  padding: 1.5em 0 0 0;
+  border-top: 1px solid #eee;      /* Top border like nav's bottom */
+  box-sizing: border-box;
 }
 
 .pointer-link {
@@ -286,5 +294,38 @@ blockquote p {
   font-size: 1.1em;
   color: #444;
 }
+
+.bk-prevnext-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  margin: 2em 0;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 1em;
+}
+
+.bk-prevnext-nav a {
+  display: block;
+  max-width: 45vw;
+  word-break: break-word;
+  white-space: normal;
+  text-align: left;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+.bk-prevnext-nav .next {
+  text-align: right;
+  margin-left: auto;
+}
+
+.bk-prevnext-nav .previous {
+  text-align: left;
+  margin-right: auto;
+}
+
+
 
 /* Remove unused/commented code for clarity */
