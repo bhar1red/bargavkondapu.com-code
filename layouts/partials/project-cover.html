@@ -1,5 +1,5 @@
-<div class="bk-cover w3-row">
-  <div class="bk-description w3-half w3-container">
+<div class="bk-cover">
+  <div class="bk-description">
     <h1 id="title">{{ .Title }}</h1>
     <p> {{ if .Params.description }} {{ .Params.description }}
       {{else}}
@@ -11,7 +11,7 @@
 
   </div>
   {{ if .Params.image }}
-  <div class="bk-cover-image w3-half w3-container">
+  <div class="bk-cover-image">
     <img src=" {{ .Params.image}} " alt="{{ .Params.imagealt }}" style=" max-width: 100%; max-height: 100%;" >
     <span class="bk-image-credits"> {{ .Params.imagecredits }} </span>
   </div>

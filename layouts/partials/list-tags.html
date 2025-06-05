@@ -1,7 +1,7 @@
-<div class="w3-container bk-tags-list">
+<div class="bk-tags-list">
 {{ with .Params.tags }}
   {{ range . }}
-     <a href="{{ "tags/" | absURL }}{{ . | urlize }}">  <span class="w3-tag w3-light-grey"> #{{ . }} </span> </a> &nbsp;
+     <a href="{{ "tags/" | absURL }}{{ . | urlize }}">  <span> #{{ . }} </span> </a> &nbsp;
   {{ end }}
 {{ end }}
 </div>

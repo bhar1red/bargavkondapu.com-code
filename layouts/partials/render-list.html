@@ -1,5 +1,5 @@
 {{ range where (.Paginator 8).Pages "Type" "not in" "pages" }}
-      <div class="w3-content w3-panel bk-note-card ">
+      <div class="bk-note-card ">
         {{ if ne .Type "page"}}
         {{ if ne .Type "notes" }}
         {{ if ne .Type "interactions"}}
