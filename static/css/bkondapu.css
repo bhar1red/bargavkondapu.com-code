@@ -1,195 +1,224 @@
-a{
+/* Minimalist, clean typography */
+
+html, body {
+  font-family: 'Inter', 'Helvetica Neue', Arial, system-ui, sans-serif;
+  font-size: 18px;
+  color: #222;
+  background: #fff;
+  line-height: 1.7;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #00796b;
   text-decoration: none;
-  overflow-wrap: break-word;
-  word-wrap: break-word;
+  transition: color 0.2s;
   word-break: break-word;
-  -ms-hyphens: auto;
--moz-hyphens: auto;
--webkit-hyphens: auto;
-hyphens: auto;
 }
-p{
-  text-align: left;
+a:hover, a:focus {
+  color: #004d40;
+  text-decoration: underline;
 }
+
+p {
+  margin: 1.2em 0;
+  max-width: 700px;
+}
+
 pre {
-  background-color: #272822;
-  padding: 10px;
-  overflow: auto;
+  background: #f5f5f5;
+  color: #222;
+  padding: 1em;
+  border-radius: 6px;
+  overflow-x: auto;
+  font-size: 0.95em;
 }
-pre code{
-  color: #fff;
-}
-code{
-  color: teal;
-}
-
-h1, h2, h3, h4, h5, h6{
-  color: teal;
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
-}
-
-hr{
-    max-width: 960px;
-    margin: auto;
-}
-#content a{
-  color : teal;
+pre code, code {
+  font-family: 'Fira Mono', 'Menlo', 'Monaco', monospace;
+  color: #00796b;
+  background: none;
+  padding: 0;
+  border-radius: 0;
 }
 
-.main-nav{
-    font-family:  Arial, Helvetica Neue, Helvetica, sans-serif;
+h1, h2, h3, h4, h5, h6 {
+  color: #222;
+  font-family: inherit;
+  font-weight: 700;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
 }
 
-.bk-pagination ul{
-  overflow-x:hidden;
-  white-space:nowrap;
-  width: 100%;
-  list-style-type: none;
-  vertical-align: bottom;
+h1 { font-size: 2.2em; }
+h2 { font-size: 1.7em; }
+h3 { font-size: 1.3em; }
+h4, h5, h6 { font-size: 1em; }
+
+hr {
+  border: none;
+  border-top: 1px solid #eee;
+  margin: 2.5em 0;
+  max-width: 700px;
+}
+
+#content a {
+  color: #00796b;
+}
+
+.main-nav {
+  font-family: inherit;
+  font-size: 1em;
+  letter-spacing: 0.02em;
+}
+
+.bk-pagination ul {
+  padding: 0;
+  margin: 2em 0 0 0;
+  list-style: none;
+  display: flex;
+  gap: 0.5em;
 }
 
 .bk-pagination ul li {
   display: inline-block;
-  font-size: large;
-  padding-left: 8px;
+  font-size: 1em;
+  padding: 0.2em 0.7em;
+  border-radius: 4px;
+  transition: background 0.2s;
 }
 
 .bk-pagination ul li.active {
-  font-size: x-large;
+  background: #00796b;
+  color: #fff;
+  font-weight: bold;
 }
 
 .bk-pagination ul li.disabled {
-  color: grey;
+  color: #bbb;
 }
 
 .bk-post-card {
-  min-height: 500px;
-  max-height: 500px;
+  min-height: 320px;
+  max-width: 700px;
+  margin: 2em auto;
+  background: #fafafa;
+  border-radius: 8px;
+  box-shadow: none;
+  padding: 2em;
+  border: 1px solid #eee;
 }
 
-.bk-post-card p{
-  padding: 8px;
-  font-size: large;
+.bk-post-card p {
+  padding: 0;
+  font-size: 1em;
 }
 
 .bk-tags-list {
-  font-size: 12px;
+  font-size: 0.9em;
+  color: #888;
 }
 
-.bk-image-credits{
-  color: grey;
-  font-size: x-small;
+.bk-image-credits {
+  color: #aaa;
+  font-size: 0.8em;
 }
 
-.bk-social-share{
-  font-size: medium;
+.bk-social-share {
+  font-size: 1em;
 }
 
-.bk-maincontent img{
+.bk-maincontent img {
   max-width: 100%;
-  object-fit: cover;
-  padding: 10px;
+  border-radius: 6px;
+  margin: 1.5em 0;
+  display: block;
 }
-
 
 .bk-maincontent img[src*='#left'] {
-    float: left;
+  float: left;
+  margin-right: 1.5em;
 }
 
 .bk-maincontent img[src*='#right'] {
-    float: right;
+  float: right;
+  margin-left: 1.5em;
 }
 
 .bk-maincontent img[src*='#center'] {
-    display: block;
-    margin: auto;
+  display: block;
+  margin: 2em auto;
 }
 
 .bk-maincontent img[src*='#copyright'] {
-    float: left;
-    width: 200px;
+  float: left;
+  width: 180px;
 }
 
-.bk-maincontent h1 h2{
+.bk-maincontent h1, 
+.bk-maincontent h2 {
   clear: both;
 }
 
-
-.bk-maincontent{
-/*  font-size: x-large;
-  font-family: Arial, Helvetica Neue, Helvetica, sans-serif; */
-  padding-bottom: unset;
+.bk-maincontent {
+  font-family: 'Inter', 'Helvetica Neue', Arial, system-ui, sans-serif;
+  font-size: 1.1em;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  line-height: 1.7;
   padding-top: 64px;
+  max-width: 700px;
+  margin: 0 auto;
+  background: #fff;
 }
 
-.bk-maincontent{
-    font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif;
-    font-style: normal;
-    font-size: 21px;
-    font-weight: 400;
-    letter-spacing: -0.004em;
-    line-height: 1.58;
-    word-wrap: break-word;
+.bk-copyright-text {
+  font-size: 0.8em;
+  color: #bbb;
+  margin-top: 2em;
 }
 
-.bk-copyright-text{
-  font-size: x-small;
-  color: lightgrey;
+.bk-cover {
+  padding-bottom: 1em;
 }
 
-.bk-cover{
-    padding-bottom: 8px;
+.bk-prevnext {
+  font-size: 1em;
 }
 
-.bk-prevnext{
-    font-size: medium;
+blockquote {
+  border-left: 3px solid #00796b;
+  margin: 2em 0;
+  padding: 0.5em 1.5em;
+  color: #444;
+  background: #f9f9f9;
+  font-style: italic;
+  font-size: 1.1em;
 }
 
- blockquote {
-  display: inline-block;
-  border-left: 2px solid teal;
-  margin: 1.5em 10px;
-  padding: 0.5em 10px;
-}
-blockquote:before {
-  color: #ccc;
-  font-size: 4em;
-  line-height: 0.1em;
-  margin-right: 0.25em;
-  vertical-align: -0.4em;
-}
 blockquote p {
+  margin: 0;
   display: inline;
 }
 
-.footer{
-    font-size: small;
-    font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif;
-    color: dimgray;
+.footer {
+  font-size: 0.95em;
+  color: #888;
+  text-align: center;
+  margin: 3em 0 1em 0;
+  background: none;
+  border: none;
 }
 
-.pointer-link{
-    cursor: pointer;
+.pointer-link {
+  cursor: pointer;
 }
 
-.bk-social-share summary{
-    font-size: large;
-    color: dimgray;
+.bk-social-share summary {
+  font-size: 1.1em;
+  color: #444;
 }
 
-/* blockquote{
-  font-size: 1.4em;
-  width:60%;
-  margin:50px auto;
-  font-family:Open Sans;
-  font-style:italic;
-  color: #555;
-  padding:1.2em 30px 1.2em 75px;
-  border-left:8px solid teal ;
-  line-height:1.6;
-  position: relative;
-  background:whitesmoke;
-}
-blockquote{
-  display: inline;
-} */
+/* Remove unused/commented code for clarity */
