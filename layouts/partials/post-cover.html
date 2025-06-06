@@ -11,8 +11,8 @@
       </div>
       <div>
         <a href="/about"> {{ $.Site.Params.author }} </a>  <br/>
-        <span style="color: grey;font-size: large;"> {{ .Date.Format "Jan 2, 2006" }} </span> &middot;
-        <span style="color: grey;font-size: large;"> {{ .ReadingTime }}min read </span> &#9734;
+        <span class="bk-meta"> {{ .Date.Format "Jan 2, 2006" }} </span> &middot;
+        <span class="bk-meta"> {{ .ReadingTime }}min read </span> &#9734;
       </div>
     </section>
   </div>
@@ -23,4 +23,3 @@
   </div>
   {{ end }}
 </div>
-<hr>

@@ -2,9 +2,9 @@
 
  <section id="main">
    {{ if ne .Type "page"}}
-   <span style="color: grey;font-size: large;"> {{ .Type | humanize | singularize }}  &middot; </span>
-   <span style="color: grey;font-size: large;"> {{ .Date.Format "Jan 2, 2006" }} &middot; </span>
-   <span style="color: grey;font-size: large;"> {{ .ReadingTime }}min read </span>
+   <span class="bk-meta"> {{ .Type | humanize | singularize }}  &middot; </span>
+   <span class="bk-meta"> {{ .Date.Format "Jan 2, 2006" }} &middot; </span>
+   <span class="bk-meta"> {{ .ReadingTime }}min read </span>
    {{ end }}
    <div>
         <article id="content">

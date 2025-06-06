@@ -68,42 +68,55 @@ hr {
   color: #00796b;
 }
 
+.main-nav-bg {
+  width: 100vw;
+  background: #00796b;
+  margin: 0;
+  padding: 0;
+}
+
 .main-nav {
   display: flex;
   gap: 2em;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   padding: 2em 0 1.5em 0;
   max-width: 700px;
   margin: 0 auto;
-  background: none;
+  background: #00796b;      /* Teal background */
   font-size: 1.05em;
   font-family: inherit;
   border-bottom: 1px solid #eee;
+  border-radius: 8px;       /* Optional: rounded corners */
 }
 
 .main-nav a {
-  color: #00796b;              /* Teal color */
+  color: #fff;              /* White text */
   text-decoration: none;
-  padding: 0.2em 0;
+  padding: 0.2em 0.8em;     /* More horizontal padding for better touch targets */
   position: relative;
   font-weight: 500;
-  transition: color 0.2s, font-weight 0.2s;
+  transition: color 0.2s, font-weight 0.2s, background 0.2s;
+  border-radius: 4px;
 }
 
+/* Active, hover, and focus states */
 .main-nav a.active,
 .main-nav a:focus,
 .main-nav a:hover {
-  color: #004d40;              /* Darker teal on hover/active */
-  font-weight: 700;            /* Bold on hover/active */
+  color: #fff;
+  background: #004d40;      /* Slightly darker teal on hover/active */
+  font-weight: 700;
 }
+
+/* Active underline indicator (optional, for extra clarity) */
 .main-nav a.active::after {
   content: "";
   display: block;
   margin: 0.2em auto 0 auto;
   width: 1.5em;
   height: 2px;
-  background: #00796b;
+  background: #fff;
   border-radius: 1px;
 }
 
@@ -167,7 +180,7 @@ hr {
 }
 
 .bk-pagination ul li.disabled {
-  color: #bbb;
+  color: #666;
 }
 
 .bk-post-card {
@@ -188,7 +201,6 @@ hr {
 
 .bk-tags-list {
   font-size: 0.9em;
-  color: #888;
 }
 
 .bk-image-credits {
@@ -275,7 +287,7 @@ blockquote p {
 
 .footer {
   font-size: 0.95em;
-  color: #888;
+  color: #444;
   text-align: left;                /* Left-justify text */
   margin: 3em auto 1em auto;       /* Center the footer block */
   background: none;
@@ -326,6 +338,20 @@ blockquote p {
   margin-right: auto;
 }
 
+/* Remove underline from .bk-post-card link hover */
+#bk-posts-list a:hover,
+#bk-posts-list a:focus {
+  text-decoration: none;
+}
 
+/* Only underline the h4 inside .bk-post-card on hover */
+#bk-posts-list a:hover .bk-post-card h4,
+#bk-posts-list a:focus .bk-post-card h4 {
+  text-decoration: underline;
+}
 
+.bk-meta {
+  color: #444;
+  font-size: 0.75em;
+}
 /* Remove unused/commented code for clarity */
