@@ -1,5 +1,5 @@
 {{ range where (.Paginator 8).Pages "Type" "not in" "pages" }}
-      <div class="w3-content w3-panel bk-note-card ">
+      <div class="bk-note-card ">
         {{ if ne .Type "page"}}
         {{ if ne .Type "notes" }}
         {{ if ne .Type "interactions"}}
@@ -12,10 +12,10 @@
         <p> {{ .Content }} </p>
 
         {{ if ne .Type "page"}}
-        <span style="color: dimgray;font-size: large;"> <i class="fa fa-tag" aria-hidden="true"></i> {{ .Type | humanize | singularize }} &middot; </span>
-        <span style="color: dimgray;font-size: large;"> <i class="fa fa-calendar" aria-hidden="true"></i> {{ .Date.Format "Jan 2, 2006" }} &middot; </span>
-        <span style="color: dimgray;font-size: large;"> <a href="{{.Permalink}}"> <i class="fa fa-chain"></i> Permalink </a> &middot; </span>
-        <span style="color: dimgray;font-size: large;"> {{ .ReadingTime }}min read </span>
+        <span class="bk-meta"> <i class="fa fa-tag" aria-hidden="true"></i> {{ .Type | humanize | singularize }} &middot; </span>
+        <span class="bk-meta"> <i class="fa fa-calendar" aria-hidden="true"></i> {{ .Date.Format "Jan 2, 2006" }} &middot; </span>
+        <span class="bk-meta"> <a href="{{.Permalink}}"> <i class="fa fa-chain"></i> Permalink </a> &middot; </span>
+        <span class="bk-meta"> {{ .ReadingTime }}min read </span>
         {{end}}
 
 

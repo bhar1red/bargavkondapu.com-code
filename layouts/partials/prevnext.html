@@ -1,10 +1,10 @@
-<div class="w3-bar bk-prevnext">
-  <div class="w3-left w3-bar-item">
+<div class="bk-prevnext-nav">
+  <div>
     {{ with .PrevInSection }}
       <a class="previous" href="{{.Permalink}}"> {{if ne .Type "notes"}} {{if ne .Type "interactions"}} &#8810; {{.Title}} {{ else }} &#8810; previous {{end}}{{ else }} &#8810; previous  {{end}} </a>
     {{ end }}
   </div>
-  <div class="w3-right w3-bar-item">
+  <div>
     {{ with .NextInSection }}
       <a class="next" href="{{.Permalink}}"> {{if ne .Type "notes"}} {{if ne .Type "interactions"}} {{.Title}} &#8811; {{ else }} next &#8811; {{end}} {{else}} next &#8811; {{end}} </a>
     {{ end }}

@@ -1,26 +1,34 @@
-<div class="bk-cover w3-row">
-  <div class="bk-description w3-half w3-container">
-    <h1 id="title">{{ .Title }}</h1>
-    <p> {{ if .Params.description }} {{ .Params.description }}
-      {{else}}
-      {{ .Summary | truncate 200 }}
-      {{ end }} </p>    {{partial "list-tags" .}} <br/>
-    <section class="bk-front-matter w3-cell-row">
-      <div class="w3-cell w3-cell-top" style="width:10%">
-        <img src="{{ $.Site.Params.author_image }}" alt="{{ $.Site.Params.author }}" class="w3-circle" style="width: 100% ">
+<div class="bk-cover">
+  <div class="bk-cover-inner bk-cover-grid">
+    <h1 class="bk-cover-title">{{ .Title }}</h1>
+    <div class="bk-cover-left">
+      {{ if .Params.description }}
+        <p class="bk-cover-desc">{{ .Params.description }}</p>
+      {{ else }}
+        <p class="bk-cover-desc">{{ .Summary | truncate 200 }}</p>
+      {{ end }}
+      {{ partial "list-tags" . }}
+      <div class="bk-cover-meta">
+        <img class="bk-cover-author-img" src="{{ $.Site.Params.author_image }}" alt="{{ $.Site.Params.author }}">
+        <div>
+          <div class="bk-cover-author">
+            <a href="/about">{{ $.Site.Params.author }}</a>
+          </div>
+          <div class="bk-meta">
+            <span>{{ .Date.Format "Jan 2, 2006" }}</span>
+            &middot;
+            <span>{{ .ReadingTime }} min read</span>
+          </div>
+        </div>
       </div>
-      <div class="w3-cell w3-cell-top w3-container">
-        <a href="/about"> {{ $.Site.Params.author }} </a>  <br/>
-        <span style="color: grey;font-size: large;"> {{ .Date.Format "Jan 2, 2006" }} </span> &middot;
-        <span style="color: grey;font-size: large;"> {{ .ReadingTime }}min read </span> &#9734;
+    </div>
+    {{ if .Params.image }}
+      <div class="bk-cover-image">
+        <img src="{{ .Params.image }}" alt="{{ .Params.imagealt }}">
+        {{ with .Params.imagecredits }}
+          <span class="bk-image-credits">{{ . }}</span>
+        {{ end }}
       </div>
-    </section>
+    {{ end }}
   </div>
-  {{ if .Params.image }}
-  <div class="bk-cover-image w3-half w3-container">
-    <img src=" {{ .Params.image}} " alt="{{ .Params.imagealt }}" style=" max-width: 100%; max-height: 100%;" >
-    <span class="bk-image-credits"> {{ .Params.imagecredits }} </span>
-  </div>
-  {{ end }}
 </div>
-<hr>

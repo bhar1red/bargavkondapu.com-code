@@ -33,11 +33,6 @@ unsafe = true
     weight = 99
 
   [[menu.main]]
-      name = "Interactions"
-      url = "/interactions"
-      weight = 98
-
-  [[menu.main]]
     name = "Posts"
     url = "/posts"
     weight = 97

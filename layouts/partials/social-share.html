@@ -1,11 +1,20 @@
 <div class="bk-social-share">
-    <details>
-        <summary> <span class="pointer-link"><i class="fa fa-share"> Share </i></span></summary>
-        <span class="w3-tag " style="background-color: #1DA1F2; ">
-      <a target="_blank" href="https://www.twitter.com/share?url={{.Permalink}}" rel="noopener"> <i class="fa fa-twitter"></i> Tweet </a></span>
-        <span class="w3-tag " style="background-color: #3B5998; ">
-      <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{.Permalink}}" rel="noopener"> <i class="fa fa-facebook"></i> Share </a></span>
-        <span class="w3-tag " style="background-color: #0077B5; ">
-      <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url={{.Permalink}}&title={{.Title}}&summary={{.Summary}}&source=BargavKondapu" rel="noopener"> <i class="fa fa-linkedin"></i> Share </a></span>
-    </details>
+  <details>
+    <summary>
+      <span class="pointer-link" aria-label="Share this post">
+        <i class="fa fa-share"></i> Share
+      </span>
+    </summary>
+    <nav class="bk-social-links" aria-label="Share on social media">
+      <a target="_blank" href="https://www.twitter.com/share?url={{.Permalink}}" rel="noopener" aria-label="Share on Twitter">
+        <i class="fa fa-twitter"></i>
+      </a>
+      <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{.Permalink}}" rel="noopener" aria-label="Share on Facebook">
+        <i class="fa fa-facebook"></i>
+      </a>
+      <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url={{.Permalink}}&title={{.Title}}&summary={{.Summary}}&source=BargavKondapu" rel="noopener" aria-label="Share on LinkedIn">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </nav>
+  </details>
 </div>
