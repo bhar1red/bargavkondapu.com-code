@@ -2,7 +2,8 @@
 title: "Ravananugraha"
 date: 2017-09-06T01:07:11-05:00
 type: posts
-description:
+description: Raavana, Overconfident and obsessed with his powers, once wanted to meet Shiva but Nandhi (Shiva's gatekeeper) denies his entry to Mt. Kailash. Enraged by this, Raavana starts uprooting the mountain and to keep him in check, Shiva pushes the Mt. Khailas down, with his feet, trapping Raavana underneath it. 
+
 keywords: Mythology, Inspiration
 image: https://res.cloudinary.com/dkjdeuwlv/image/upload/c_scale,w_1200,q_auto,f_auto/v1541960695/bargavkondapu.com/posts/raavana-anugraha.jpg
 imagealt: Ravananugraha
