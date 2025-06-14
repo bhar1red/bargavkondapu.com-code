@@ -1,5 +1,5 @@
 ---
-title: "Why I am Writing Again"
+title: "Why I am Writing Again - A Personal Reflection"
 date: 2025-06-14T00:00:00-05:00
 type: posts
 description: A personal reflection on why I stopped writing, and why I am starting again. From parenthood to professional challenges, rediscovering curiosity and the need for genuine connections in a digital world.
