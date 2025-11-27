@@ -1,5 +1,5 @@
 ---
-title: "Flux 2 They Nailed It Again"
+title: "Flux.2: They Nailed It Again"
 date: "2025-11-25T20:11:44-05:00"
 type: "posts"
 description: "Flux.2 just dropped and it caught me by surprise. It stood up to its title 'Frontier Visual Intelligence' and I think they nailed it again."
