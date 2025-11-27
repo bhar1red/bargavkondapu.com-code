@@ -206,3 +206,13 @@ The multi-reference support, text rendering, prompt understanding is just a glim
 I am still continuing to explore Flux.2 and its capabilities, but I am excited about the possibilities it opens up. With Flux.1, Black Forest Labs showed that open source image-gen can compete with closed models, like Gemini. With Flux.2, they are leading the charge into the future, with resposibility ofcourse.
 
 They nailed it again.
+
+
+
+## References
+
+- [Black Forest Labs - FLUX.2 Announcement](https://bfl.ai/blog/flux-2)
+- [FLUX.2-dev on Hugging Face](https://huggingface.co/black-forest-labs/FLUX.2-dev)
+- [FLUX.2 GitHub Repository](https://github.com/black-forest-labs/flux2)
+- [NVIDIA - FLUX.2 RTX Optimization](https://blogs.nvidia.com/blog/rtx-ai-garage-flux-2-comfyui/)
+
